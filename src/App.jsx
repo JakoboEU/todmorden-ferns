@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import MapComponent from './components/MapComponent'
 import species from './species'
 
 function App() {
+  const [selectedSpecies, setSelectedSpecies] = useState(null)
+
   return (
     <div className="app">
       <header>
@@ -14,14 +17,20 @@ function App() {
             <ul>
               {species.map(name => (
                 <li key={name}>
-                  <a href="#map">{name}</a>
+                  <a
+                    href="#map"
+                    className={selectedSpecies === name ? 'selected' : ''}
+                    onClick={() => setSelectedSpecies(name)}
+                  >
+                    {name}
+                  </a>
                 </li>
               ))}
             </ul>
           </nav>
         </aside>
         <section id="map" className="map-panel" aria-label="Todmorden fern map">
-          <MapComponent />
+          <MapComponent selectedSpecies={selectedSpecies} />
         </section>
       </main>
     </div>

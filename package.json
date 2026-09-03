@@ -5,18 +5,23 @@
   "type": "module",
   "scripts": {
     "build-geojson": "node scripts/build-geojson.js",
-    "dev": "npm run build-geojson && vite",
-    "build": "npm run build-geojson && vite build",
+    "build-historic-geojson": "node scripts/build-observations.js historic",
+    "build-contemporary-geojson": "node scripts/build-observations.js contemporary",
+    "dev": "npm run build-geojson && npm run build-historic-geojson && npm run build-contemporary-geojson && vite",
+    "build": "npm run build-geojson && npm run build-historic-geojson && npm run build-contemporary-geojson && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@turf/buffer": "^7.2.0",
+    "@turf/helpers": "^7.2.0",
+    "@turf/union": "^7.4.0",
+    "proj4": "^2.9.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "proj4": "^2.9.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0",
-    "shapefile": "^0.6.6"
+    "shapefile": "^0.6.6",
+    "vite": "^5.0.0"
   }
 }

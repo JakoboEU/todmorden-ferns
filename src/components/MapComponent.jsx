@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
 
-const MapComponent = () => {
+const MapComponent = ({ selectedSpecies }) => {
   const mapContainer = useRef(null)
   const mapInstance = useRef(null)
+  const observationData = useRef(null)
+  const observationLayers = useRef([])
   
   // Towns to display as labels
   const allowedPlaces = [
@@ -28,11 +30,15 @@ const MapComponent = () => {
     loadLayers()
   }, [])
 
+  useEffect(() => {
+    if (mapInstance.current) showObservations()
+  }, [selectedSpecies])
+
   const loadLayers = async () => {
     const L = window.L
     const BASE_URL = import.meta.env.BASE_URL
     const layers = [
-      { name: 'contours', color: '#ffb3b3', weight: 1.2, opacity: 0.7 },
+      { name: 'contours', color: '#ffb3b3', weight: 1.2, opacity: 0.5 },
       { name: 'roads', color: '#666666', weight: 1, opacity: 0.6 },
       { name: 'water', color: '#4a90e2', weight: 1.5, opacity: 0.5, fillOpacity: 0.2, fillColor: '#4a90e2' },
       { name: 'railway', color: '#888888', weight: 1, opacity: 0.7 },
@@ -89,6 +95,60 @@ const MapComponent = () => {
     if (allBounds) {
       mapInstance.current.fitBounds(allBounds, { padding: [50, 50] })
     }
+
+    await loadObservationData()
+  }
+
+  const loadObservationData = async () => {
+    const BASE_URL = import.meta.env.BASE_URL
+    const [historicResponse, contemporaryResponse] = await Promise.all([
+      fetch(`${BASE_URL}historic.geojson`),
+      fetch(`${BASE_URL}contemporary.geojson`)
+    ])
+
+    if (!historicResponse.ok || !contemporaryResponse.ok) {
+      throw new Error('Could not load observation data')
+    }
+
+    observationData.current = {
+      historic: await historicResponse.json(),
+      contemporary: await contemporaryResponse.json()
+    }
+    showObservations()
+  }
+
+  const showObservations = () => {
+    const L = window.L
+    observationLayers.current.forEach(layer => layer.remove())
+    observationLayers.current = []
+
+    if (!selectedSpecies || !observationData.current) return
+
+    const createLayer = (data, color) => L.geoJSON({
+      type: 'FeatureCollection',
+      features: data.features.filter(feature => feature.properties?.species === selectedSpecies)
+    }, {
+      style: {
+        color,
+        fillColor: color,
+        weight: 0,
+        opacity: 0.5,
+        fillOpacity: 0.5
+      },
+      pointToLayer: (_, latlng) => L.circleMarker(latlng, {
+        radius: 7,
+        color,
+        fillColor: color,
+        weight: 0,
+        opacity: 0.5,
+        fillOpacity: 0.5
+      })
+    }).addTo(mapInstance.current)
+
+    observationLayers.current = [
+      createLayer(observationData.current.historic, '#c66a00'),
+      createLayer(observationData.current.contemporary, '#4b1f66')
+    ]
   }
 
   const loadPlacenames = async (L, allBounds) => {
@@ -131,29 +191,17 @@ const MapComponent = () => {
         },
         pointToLayer: (feature, latlng) => {
           const name = feature.properties?.name1 || 'Unknown'
-          return L.circleMarker(latlng, {
-            radius: 5,
-            fillColor: '#ff6b6b',
-            color: '#c92a2a',
-            weight: 2,
-            opacity: 1,
-            fillOpacity: 0.8
+          return L.marker(latlng, {
+            icon: L.divIcon({
+              className: 'place-label',
+              html: `<div style="font-size: 13px; font-weight: 700; color: rgba(51, 51, 51, 0.65); white-space: nowrap; pointer-events: none; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);">${name}</div>`,
+              iconSize: [120, 25],
+              iconAnchor: [60, 5]
+            })
           }).bindPopup(`<strong>${name}</strong>`)
         },
         onEachFeature: (feature, leafletLayer) => {
           const name = feature.properties?.name1 || 'Unknown'
-          // Add text labels for each place
-          const coords = leafletLayer.getLatLng ? leafletLayer.getLatLng() : null
-          if (coords) {
-            L.marker(coords, {
-              icon: L.divIcon({
-                className: 'place-label',
-                html: `<div style="font-size: 13px; font-weight: 700; color: #333; white-space: nowrap; pointer-events: none; text-shadow: 1px 1px 1px white;">${name}</div>`,
-                iconSize: [120, 25],
-                iconAnchor: [60, 5]
-              })
-            }).addTo(mapInstance.current)
-          }
           leafletLayer.bindPopup(`<strong>${name}</strong>`)
         }
       }).addTo(mapInstance.current)
