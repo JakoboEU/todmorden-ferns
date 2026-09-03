@@ -45,8 +45,18 @@ const parseCsv = text => {
 const buildHistoric = async () => {
   const records = parseCsv(fs.readFileSync('data/locations.csv', 'utf8'))
   const recordsByPolygon = new Map()
+  const metadata = new Map()
 
   for (const record of records) {
+    if (record.Species) {
+      const speciesMetadata = metadata.get(record.Species) || { locations: [], rarity: [], common: false }
+      if (record['Location Name']) speciesMetadata.locations.push(record['Location Name'])
+      if (record.Rarity) speciesMetadata.rarity.push(record.Rarity)
+      if (record.Common === 'Y') speciesMetadata.common = true
+      speciesMetadata.locations = [...new Set(speciesMetadata.locations)]
+      speciesMetadata.rarity = [...new Set(speciesMetadata.rarity)]
+      metadata.set(record.Species, speciesMetadata)
+    }
     if (!record.Polygon) continue
     const polygonRecords = recordsByPolygon.get(record.Polygon) || []
     polygonRecords.push(record)
@@ -82,7 +92,8 @@ const buildHistoric = async () => {
   const mergedFeatures = mergeBySpecies(features)
   fs.writeFileSync('public/historic.geojson', JSON.stringify({
     type: 'FeatureCollection',
-    features: mergedFeatures
+    features: mergedFeatures,
+    metadata: Object.fromEntries(metadata)
   }))
   console.log(`✓ historic.geojson (${mergedFeatures.length} merged species features)`)
 }
@@ -121,11 +132,17 @@ const mergeBySpecies = features => {
   }
 
   return [...grouped.values()].map(speciesFeatures => {
-    if (speciesFeatures.length === 1) return speciesFeatures[0]
-    const merged = union(featureCollection(speciesFeatures))
+    const merged = speciesFeatures.length === 1
+      ? speciesFeatures[0]
+      : union(featureCollection(speciesFeatures))
     return {
       ...merged,
-      properties: speciesFeatures[0].properties
+      properties: {
+        ...speciesFeatures[0].properties,
+        locations: [...new Set(speciesFeatures.flatMap(feature => feature.properties.locations || []))],
+        common: speciesFeatures.some(feature => feature.properties.common),
+        recordCount: speciesFeatures.length
+      }
     }
   })
 }

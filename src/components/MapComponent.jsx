@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const MapComponent = ({ selectedSpecies }) => {
+const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
   const mapContainer = useRef(null)
   const mapInstance = useRef(null)
   const observationData = useRef(null)
@@ -114,6 +114,7 @@ const MapComponent = ({ selectedSpecies }) => {
       historic: await historicResponse.json(),
       contemporary: await contemporaryResponse.json()
     }
+    onDataLoaded?.(observationData.current)
     showObservations()
   }
 
