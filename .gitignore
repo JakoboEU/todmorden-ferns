@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Ignore large data files - keep structure but not content
+# Uncomment below if you want to exclude large GIS files from git
+# data/shapefiles/*.shp
+# data/shapefiles/*.shx
+# data/shapefiles/*.dbf
+# data/geojson/*.geojson
+# data/points/*.csv
