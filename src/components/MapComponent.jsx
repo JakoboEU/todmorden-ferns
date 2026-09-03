@@ -38,11 +38,11 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
     const L = window.L
     const BASE_URL = import.meta.env.BASE_URL
     const layers = [
-      { name: 'contours', color: '#ffb3b3', weight: 1.2, opacity: 0.5 },
+      { name: 'contours', color: '#ffb3b3', weight: 1.2, opacity: 0.3 },
       { name: 'roads', color: '#666666', weight: 1, opacity: 0.6 },
-      { name: 'water', color: '#4a90e2', weight: 1.5, opacity: 0.5, fillOpacity: 0.2, fillColor: '#4a90e2' },
+      { name: 'water', color: '#4a90e2', weight: 1.5, opacity: 0.3, fillOpacity: 0.3, fillColor: '#4a90e2' },
       { name: 'railway', color: '#888888', weight: 1, opacity: 0.7 },
-      { name: 'woodland', color: '#6b8e23', weight: 1.5, opacity: 0.4, fillOpacity: 0.15, fillColor: '#6b8e23' }
+      { name: 'woodland', color: '#6b8e23', weight: 0, opacity: 0.3, fillOpacity: 0.3, fillColor: '#6b8e23' }
     ]
 
     let allBounds = null
@@ -133,16 +133,16 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
         color,
         fillColor: color,
         weight: 0,
-        opacity: 0.5,
-        fillOpacity: 0.5
+        opacity: 0.7,
+        fillOpacity: 0.7
       },
       pointToLayer: (_, latlng) => L.circleMarker(latlng, {
         radius: 7,
         color,
         fillColor: color,
         weight: 0,
-        opacity: 0.5,
-        fillOpacity: 0.5
+        opacity: 0.7,
+        fillOpacity: 0.7
       })
     }).addTo(mapInstance.current)
 
