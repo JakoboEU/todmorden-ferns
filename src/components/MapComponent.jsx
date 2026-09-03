@@ -30,6 +30,7 @@ const MapComponent = () => {
 
   const loadLayers = async () => {
     const L = window.L
+    const BASE_URL = import.meta.env.BASE_URL
     const layers = [
       { name: 'contours', color: '#ffb3b3', weight: 1.2, opacity: 0.7 },
       { name: 'roads', color: '#666666', weight: 1, opacity: 0.6 },
@@ -42,7 +43,7 @@ const MapComponent = () => {
 
     for (const layer of layers) {
       try {
-        const response = await fetch(`/${layer.name}.geojson`)
+        const response = await fetch(`${BASE_URL}${layer.name}.geojson`)
         if (!response.ok) {
           console.warn(`Skipping ${layer.name} - file not found`)
           continue
@@ -91,8 +92,9 @@ const MapComponent = () => {
   }
 
   const loadPlacenames = async (L, allBounds) => {
+    const BASE_URL = import.meta.env.BASE_URL
     try {
-      const response = await fetch('/placenames.geojson')
+      const response = await fetch(`${BASE_URL}placenames.geojson`)
       if (!response.ok) {
         console.warn('Skipping placenames - file not found')
         return
