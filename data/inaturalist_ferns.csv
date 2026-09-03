@@ -1,0 +1,540 @@
+time_observed_at,image_url,latitude,longitude,positional_accuracy,scientific_name,common_name
+2018-06-13 15:45:19 UTC,https://static.inaturalist.org/photos/19687131/medium.jpg,53.7616666667,-2.01985,16,Asplenium scolopendrium,Hart's-tongue fern
+2018-06-13 16:24:39 UTC,https://static.inaturalist.org/photos/19687218/medium.jpg,53.759845,-2.0347445,8,Struthiopteris spicant,hard fern
+2019-05-12 14:22:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/39230903/medium.jpeg,53.707625,-2.1291,10,Struthiopteris spicant,hard fern
+2020-07-17 09:57:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/85350283/medium.jpg,53.75680833,-2.02155283,10,Asplenium scolopendrium,Hart's-tongue fern
+2020-08-09 14:02:02 UTC,https://static.inaturalist.org/photos/89069994/medium.jpeg,53.7418844,-2.0138565,14,Athyrium filix-femina,lady fern
+2020-08-09 14:08:31 UTC,https://static.inaturalist.org/photos/89071099/medium.jpeg,53.7418096444,-2.0135498409,4,Athyrium filix-femina,lady fern
+2021-02-19 09:31:03 UTC,https://static.inaturalist.org/photos/113358410/medium.jpeg,53.71775,-2.109018,9,Asplenium scolopendrium,Hart's-tongue fern
+2021-03-28 11:36:42 UTC,https://static.inaturalist.org/photos/117779682/medium.jpeg,53.7253368844,-2.0665958581,8,Struthiopteris spicant,hard fern
+2021-05-08 16:15:26 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/127456280/medium.jpeg,53.73535939,-2.13581255,11,Athyrium filix-femina,lady fern
+2021-05-08 16:16:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/127456438/medium.jpeg,53.73550083,-2.13601799,3,Dryopteris filix-mas,male fern
+2021-07-05 14:21:08 UTC,https://static.inaturalist.org/photos/141202908/medium.jpg,53.758655,-2.0187,16,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2021-07-19 20:24:57 UTC,https://static.inaturalist.org/photos/144730861/medium.jpeg,53.7133799611,-2.0937764918,6,Asplenium ruta-muraria,wall-rue
+2021-07-19 20:25:22 UTC,https://static.inaturalist.org/photos/144730966/medium.jpeg,53.7133936306,-2.0937436125,6,Asplenium adiantum-nigrum,black spleenwort
+2021-07-26 18:19:02 UTC,https://static.inaturalist.org/photos/146416816/medium.jpeg,53.7250568298,-2.0935519449,6,Dryopteris dilatata,broad buckler-fern
+2021-08-15 13:27:42 UTC,https://static.inaturalist.org/photos/150911499/medium.jpeg,53.7496587989,-2.1917105878,6,Dryopteris dilatata,broad buckler-fern
+2021-08-15 13:34:33 UTC,https://static.inaturalist.org/photos/151000557/medium.jpeg,53.7489416671,-2.1922435786,6,Dryopteris dilatata,broad buckler-fern
+2021-08-20 14:26:57 UTC,https://static.inaturalist.org/photos/151995476/medium.jpeg,53.7123568602,-2.0981394566,4,Asplenium trichomanes,maidenhair spleenwort
+2021-08-20 14:27:54 UTC,https://static.inaturalist.org/photos/151995887/medium.jpeg,53.712230899,-2.0981875828,8,Athyrium filix-femina,lady fern
+2021-08-20 14:29:50 UTC,https://static.inaturalist.org/photos/151996133/medium.jpeg,53.7123616277,-2.0982107677,6,Asplenium scolopendrium,Hart's-tongue fern
+2021-08-20 14:30:29 UTC,https://static.inaturalist.org/photos/151996247/medium.jpeg,53.7123739917,-2.0982119848,8,Dryopteris filix-mas,male fern
+2021-08-20 14:38:14 UTC,https://static.inaturalist.org/photos/152003189/medium.jpeg,53.7123668837,-2.0981251033,6,Athyrium filix-femina,lady fern
+2021-08-20 15:35:00 UTC,https://static.inaturalist.org/photos/152008475/medium.jpeg,53.7134288161,-2.1012883061,8,Dryopteris cambrensis,Narrow Male-fern
+2021-08-20 15:37:20 UTC,https://static.inaturalist.org/photos/152008875/medium.jpeg,53.7138012341,-2.1007138223,6,Equisetum arvense,field horsetail
+2021-08-20 15:46:07 UTC,https://static.inaturalist.org/photos/152010452/medium.jpeg,53.7156567502,-2.1004080773,8,Pteridium aquilinum,common bracken
+2021-08-30 14:25:27 UTC,https://static.inaturalist.org/photos/154178848/medium.jpeg,53.7212002775,-2.0090629409,6,Struthiopteris spicant,hard fern
+2021-08-30 14:32:42 UTC,https://static.inaturalist.org/photos/154178904/medium.jpeg,53.7228987603,-2.0065421847,8,Oreopteris limbosperma,Lemon-scented Fern
+2021-08-31 08:21:42 UTC,https://static.inaturalist.org/photos/154310989/medium.jpeg,53.7212312823,-2.0908399625,8,Dryopteris dilatata,broad buckler-fern
+2021-08-31 08:23:00 UTC,https://static.inaturalist.org/photos/154311067/medium.jpeg,53.7211563914,-2.0908815857,8,Athyrium filix-femina,lady fern
+2021-08-31 08:23:42 UTC,https://static.inaturalist.org/photos/154311135/medium.jpeg,53.7212257837,-2.0909089476,8,Dryopteris filix-mas,male fern
+2021-08-31 15:13:50 UTC,https://static.inaturalist.org/photos/154357573/medium.jpeg,53.718834943,-2.0887325938,6,Dryopteris filix-mas,male fern
+2021-08-31 15:36:02 UTC,https://static.inaturalist.org/photos/154361455/medium.jpeg,53.7189936747,-2.0782156202,4,Asplenium ruta-muraria,wall-rue
+2021-08-31 15:52:38 UTC,https://static.inaturalist.org/photos/154364593/medium.jpeg,53.7209984393,-2.0704818987,6,Struthiopteris spicant,hard fern
+2021-08-31 16:04:16 UTC,https://static.inaturalist.org/photos/154366769/medium.jpeg,53.7238589809,-2.0699536346,4,Pteridium aquilinum,common bracken
+2021-08-31 16:14:01 UTC,https://static.inaturalist.org/photos/154368652/medium.jpeg,53.7259440032,-2.0754802308,8,Equisetum sylvaticum,wood horsetail
+2021-08-31 16:28:45 UTC,https://static.inaturalist.org/photos/154371172/medium.jpeg,53.7270607198,-2.0794395881,4,Dryopteris dilatata,broad buckler-fern
+2021-08-31 16:32:03 UTC,https://static.inaturalist.org/photos/154371972/medium.jpeg,53.7272932845,-2.0806666957,6,Dryopteris dilatata,broad buckler-fern
+2021-09-02 18:27:47 UTC,https://static.inaturalist.org/photos/155314145/medium.jpeg,53.7125117726,-2.0977405231,4,Pteridium aquilinum,common bracken
+2021-09-16 18:21:04 UTC,https://static.inaturalist.org/photos/157768170/medium.jpeg,53.7291987243,-2.0508172412,6,Osmunda regalis,European royal fern
+2021-09-26 13:22:59 UTC,https://static.inaturalist.org/photos/159828273/medium.jpeg,53.7304012812,-2.0753385796,8,Oreopteris limbosperma,Lemon-scented Fern
+2021-09-26 14:24:04 UTC,https://static.inaturalist.org/photos/159828356/medium.jpeg,53.7306133794,-2.0754534175,4,Struthiopteris spicant,hard fern
+2021-09-26 13:24:48 UTC,https://static.inaturalist.org/photos/159828394/medium.jpeg,53.7305932585,-2.0753833139,4,Athyrium filix-femina,lady fern
+2021-09-26 13:40:26 UTC,https://static.inaturalist.org/photos/159828453/medium.jpeg,53.7327775055,-2.0672879181,12,Polypodium vulgare,common polypody
+2021-09-26 16:08:35 UTC,https://static.inaturalist.org/photos/159849047/medium.jpeg,53.749616742,-2.0416969095,6,Dryopteris filix-mas,male fern
+2021-09-26 15:19:49 UTC,https://static.inaturalist.org/photos/159916463/medium.jpeg,53.7506556514,-2.0379306809,6,Dryopteris affinis,Golden-scaled Male-fern
+2021-10-04 11:34:11 UTC,https://static.inaturalist.org/photos/161477810/medium.jpeg,53.7112951814,-2.0996572787,6,Polystichum setiferum,soft shield fern
+2021-10-04 11:35:24 UTC,https://static.inaturalist.org/photos/161477941/medium.jpeg,53.7110798897,-2.0995886656,6,Dryopteris dilatata,broad buckler-fern
+2021-10-04 11:37:18 UTC,https://static.inaturalist.org/photos/161478029/medium.jpeg,53.7110113518,-2.0989944049,8,Athyrium filix-femina,lady fern
+2021-10-14 08:27:13 UTC,https://static.inaturalist.org/photos/163411231/medium.jpeg,53.7212015787,-2.0907839498,6,Struthiopteris spicant,hard fern
+2021-10-24 13:23:09 UTC,https://static.inaturalist.org/photos/165352720/medium.jpeg,53.7076694262,-2.0713066173,8,Equisetum telmateia,great horsetail
+2021-10-26 14:35:53 UTC,https://static.inaturalist.org/photos/165801254/medium.jpeg,53.7184733796,-2.0890931364,8,Dryopteris dilatata,broad buckler-fern
+2021-10-26 14:46:49 UTC,https://static.inaturalist.org/photos/165802828/medium.jpeg,53.7183712694,-2.0851464132,16,Struthiopteris spicant,hard fern
+2021-10-26 14:53:50 UTC,https://static.inaturalist.org/photos/165817789/medium.jpeg,53.7192142556,-2.0821013289,8,Asplenium trichomanes,maidenhair spleenwort
+2021-10-26 15:20:05 UTC,https://static.inaturalist.org/photos/165818029/medium.jpeg,53.721643406,-2.0687377914,8,Asplenium scolopendrium,Hart's-tongue fern
+2021-10-29 13:35:29 UTC,https://static.inaturalist.org/photos/166267433/medium.jpeg,53.7169031356,-2.0745196947,8,Dryopteris affinis,Golden-scaled Male-fern
+2021-10-29 14:23:34 UTC,https://static.inaturalist.org/photos/166273488/medium.jpeg,53.717793,-2.106327,9,Athyrium filix-femina,lady fern
+2021-10-29 14:44:54 UTC,https://static.inaturalist.org/photos/166276511/medium.jpeg,53.7124756928,-2.0836611931,8,Equisetum arvense,field horsetail
+2021-10-29 14:48:27 UTC,https://static.inaturalist.org/photos/166276949/medium.jpeg,53.7133561556,-2.0856759649,8,Asplenium ruta-muraria,wall-rue
+2021-10-31 14:08:14 UTC,https://static.inaturalist.org/photos/166593522/medium.jpeg,53.7126537758,-2.1012404142,12,Pteridium aquilinum,common bracken
+2021-10-31 14:09:24 UTC,https://static.inaturalist.org/photos/166596228/medium.jpeg,53.712391,-2.101778,9,Athyrium filix-femina,lady fern
+2021-10-31 14:27:34 UTC,https://static.inaturalist.org/photos/166938645/medium.jpeg,53.7075618011,-2.1047264825,6,Asplenium ruta-muraria,wall-rue
+2021-10-31 14:28:33 UTC,https://static.inaturalist.org/photos/166938658/medium.jpeg,53.7073705758,-2.104925674,6,Asplenium scolopendrium,Hart's-tongue fern
+2021-11-02 10:16:34 UTC,https://static.inaturalist.org/photos/166938676/medium.jpeg,53.718586,-2.110092,19,Equisetum sylvaticum,wood horsetail
+2021-11-05 09:58:23 UTC,https://static.inaturalist.org/photos/167391891/medium.jpeg,53.7210038413,-2.090315354,8,Dryopteris affinis,Golden-scaled Male-fern
+2021-11-05 10:02:58 UTC,https://static.inaturalist.org/photos/167392178/medium.jpeg,53.721125681,-2.0904807493,12,Struthiopteris spicant,hard fern
+2021-11-05 10:03:27 UTC,https://static.inaturalist.org/photos/167392183/medium.jpeg,53.7210300615,-2.0903164613,4,Dryopteris dilatata,broad buckler-fern
+2021-11-05 10:04:41 UTC,https://static.inaturalist.org/photos/167392204/medium.jpeg,53.7212735351,-2.0903475733,8,Dryopteris filix-mas,male fern
+2021-11-13 14:06:27 UTC,https://static.inaturalist.org/photos/168635142/medium.jpeg,53.718698,-2.110231,9,Equisetum sylvaticum,wood horsetail
+2021-11-14 15:08:03 UTC,https://static.inaturalist.org/photos/168804279/medium.jpeg,53.7335742836,-2.0441676638,12,Asplenium trichomanes,maidenhair spleenwort
+2021-11-14 15:08:24 UTC,https://static.inaturalist.org/photos/168804318/medium.jpeg,53.733718434,-2.0439974621,12,Asplenium scolopendrium,Hart's-tongue fern
+2021-12-25 12:55:45 UTC,https://static.inaturalist.org/photos/173486803/medium.jpeg,53.7227561292,-2.1139736844,6,Asplenium trichomanes,maidenhair spleenwort
+2022-01-07 15:23:35 UTC,https://static.inaturalist.org/photos/175153788/medium.jpeg,53.7184913497,-2.0891042054,8,Polypodium vulgare,common polypody
+2022-03-24 04:34:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/185477864/medium.jpeg,53.7087308079,-2.1248791951,8,Polypodium interjectum,intermediate polypody
+2022-05-12 18:12:57 UTC,https://static.inaturalist.org/photos/197056800/medium.jpeg,53.7171320848,-2.1061630547,8,Equisetum sylvaticum,wood horsetail
+2022-05-14 11:14:30 UTC,https://static.inaturalist.org/photos/197462708/medium.jpeg,53.7135386612,-2.0913505103,3,Asplenium ruta-muraria,wall-rue
+2022-05-17 10:50:22 UTC,https://static.inaturalist.org/photos/198325864/medium.jpeg,53.7166910751,-2.1044293711,12,Dryopteris affinis,Golden-scaled Male-fern
+2022-06-04 08:25:52 UTC,https://static.inaturalist.org/photos/203141363/medium.jpeg,53.7377821828,-2.0096853375,8,Asplenium trichomanes,maidenhair spleenwort
+2022-06-04 08:25:57 UTC,https://static.inaturalist.org/photos/203141519/medium.jpeg,53.7378825274,-2.0096715912,8,Asplenium scolopendrium,Hart's-tongue fern
+2022-06-12 10:48:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/205406826/medium.jpg,53.6951184466,-2.0986682824,14,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2022-06-12 10:49:31 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/205407050/medium.jpg,53.695258602,-2.0990458416,9,Equisetum arvense,field horsetail
+2022-06-18 10:21:29 UTC,https://static.inaturalist.org/photos/207028708/medium.jpeg,53.7117399985,-2.0992536893,6,Cyrtomium falcatum,Japanese holly-fern
+2022-06-20 15:40:50 UTC,https://static.inaturalist.org/photos/207707288/medium.jpeg,53.7070745604,-2.1086314298,6,Pteridium aquilinum,common bracken
+2022-06-21 09:51:06 UTC,https://static.inaturalist.org/photos/207930518/medium.jpeg,53.7156705928,-2.1005320922,8,Pteridium aquilinum,common bracken
+2022-06-21 12:10:00 UTC,https://static.inaturalist.org/photos/207963010/medium.jpeg,53.7585663917,-2.0196046448,4,Pteridium aquilinum,common bracken
+2022-06-21 12:11:28 UTC,https://static.inaturalist.org/photos/207963047/medium.jpeg,53.7582292147,-2.0203289088,8,Polystichum aculeatum,hard shield fern
+2022-06-21 12:13:16 UTC,https://static.inaturalist.org/photos/207963196/medium.jpeg,53.7587910114,-2.0207031816,12,Athyrium filix-femina,lady fern
+2022-06-21 12:14:31 UTC,https://static.inaturalist.org/photos/207963466/medium.jpeg,53.7586404894,-2.0207891439,12,Dryopteris filix-mas,male fern
+2022-06-21 12:15:15 UTC,https://static.inaturalist.org/photos/207963576/medium.jpeg,53.7584953356,-2.020934696,8,Dryopteris dilatata,broad buckler-fern
+2022-06-21 12:17:10 UTC,https://static.inaturalist.org/photos/207969999/medium.jpeg,53.7586825901,-2.0216060802,8,Struthiopteris spicant,hard fern
+2022-06-21 12:25:13 UTC,https://static.inaturalist.org/photos/207970031/medium.jpeg,53.7591063115,-2.0241923846,16,Equisetum sylvaticum,wood horsetail
+2022-06-21 12:37:48 UTC,https://static.inaturalist.org/photos/207970183/medium.jpeg,53.7590215296,-2.0264320448,8,Asplenium scolopendrium,Hart's-tongue fern
+2022-06-21 13:12:51 UTC,https://static.inaturalist.org/photos/207970312/medium.jpeg,53.7584071022,-2.0189589821,6,Asplenium trichomanes,maidenhair spleenwort
+2022-06-21 13:14:43 UTC,https://static.inaturalist.org/photos/207970370/medium.jpeg,53.7585818988,-2.0183488727,8,Asplenium ruta-muraria,wall-rue
+2022-06-22 19:09:20 UTC,https://static.inaturalist.org/photos/208297090/medium.jpeg,53.7193877144,-2.091190964,14,Asplenium trichomanes,maidenhair spleenwort
+2022-06-22 19:10:22 UTC,https://static.inaturalist.org/photos/208297279/medium.jpeg,53.7195627363,-2.0908904718,6,Asplenium scolopendrium,Hart's-tongue fern
+2022-06-23 09:24:32 UTC,https://static.inaturalist.org/photos/208437047/medium.jpeg,53.7186311763,-2.1023729198,6,Equisetum arvense,field horsetail
+2022-06-23 09:26:59 UTC,https://static.inaturalist.org/photos/208437363/medium.jpeg,53.719025746,-2.1033767964,4,Equisetum arvense,field horsetail
+2022-06-23 09:35:45 UTC,https://static.inaturalist.org/photos/208438520/medium.jpeg,53.718646102,-2.1070947871,8,Dryopteris affinis,Golden-scaled Male-fern
+2022-06-23 09:36:33 UTC,https://static.inaturalist.org/photos/208438582/medium.jpeg,53.7186498716,-2.1070696414,8,Athyrium filix-femina,lady fern
+2022-06-23 15:24:39 UTC,https://static.inaturalist.org/photos/208492664/medium.jpeg,53.7121197716,-2.0871872598,6,Equisetum arvense,field horsetail
+2022-06-23 15:32:24 UTC,https://static.inaturalist.org/photos/208494272/medium.jpeg,53.7111669497,-2.0881637558,6,Struthiopteris spicant,hard fern
+2022-06-23 15:33:03 UTC,https://static.inaturalist.org/photos/208494330/medium.jpeg,53.7109617672,-2.0880832896,11,Dryopteris dilatata,broad buckler-fern
+2022-06-23 15:33:53 UTC,https://static.inaturalist.org/photos/208494491/medium.jpeg,53.7109810155,-2.0881067589,16,Dryopteris filix-mas,male fern
+2022-06-23 15:38:44 UTC,https://static.inaturalist.org/photos/208495425/medium.jpeg,53.7100525228,-2.0883320644,6,Dryopteris dilatata,broad buckler-fern
+2022-06-23 15:39:49 UTC,https://static.inaturalist.org/photos/208495744/medium.jpeg,53.709816378,-2.0885929093,12,Athyrium filix-femina,lady fern
+2022-06-23 15:49:11 UTC,https://static.inaturalist.org/photos/208497372/medium.jpeg,53.7097761963,-2.0930690455,6,Dryopteris dilatata,broad buckler-fern
+2022-07-03 15:13:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/266764296/medium.jpg,53.7130386538,-2.1013098118,8,Cystopteris fragilis,brittle bladderfern
+2022-07-03 15:19:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/211149409/medium.jpeg,53.7128875463,-2.100417763,8,Asplenium adiantum-nigrum,black spleenwort
+2022-07-03 15:19:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/211149551/medium.jpeg,53.7128877448,-2.1004375443,8,Asplenium trichomanes,maidenhair spleenwort
+2022-07-03 15:20:56 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/211150000/medium.jpeg,53.7128448845,-2.1001307666,8,Asplenium adiantum-nigrum,black spleenwort
+2022-07-08 16:28:13 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/212523243/medium.jpeg,53.7160083957,-2.1044843515,4,Athyrium filix-femina,lady fern
+2022-07-08 16:33:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/212523411/medium.jpeg,53.7159055143,-2.1040900424,6,Asplenium trichomanes,maidenhair spleenwort
+2022-07-08 16:33:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/212523447/medium.jpeg,53.7158920222,-2.1040595323,6,Asplenium scolopendrium,Hart's-tongue fern
+2022-07-08 16:55:40 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/212523486/medium.jpeg,53.7183905621,-2.0943532884,6,Asplenium adiantum-nigrum,black spleenwort
+2022-07-08 16:57:03 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/212523579/medium.jpeg,53.7183961173,-2.0943251252,6,Asplenium scolopendrium,Hart's-tongue fern
+2022-07-16 15:30:54 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/214624263/medium.jpeg,53.70857692,-2.0725511,9,Athyrium filix-femina,lady fern
+2022-08-13 13:15:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222179393/medium.jpeg,53.72942182,-2.05093994,7,Osmunda regalis,European royal fern
+2022-08-14 12:28:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222465476/medium.jpeg,53.7198001786,-2.0889630541,6,Dryopteris cambrensis,Narrow Male-fern
+2022-08-14 13:14:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222465645/medium.jpeg,53.7314250842,-2.0912422612,8,Oreopteris limbosperma,Lemon-scented Fern
+2022-08-14 13:15:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222465737/medium.jpeg,53.7313818462,-2.0912727714,4,Dryopteris dilatata,broad buckler-fern
+2022-08-14 13:16:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222465826/medium.jpeg,53.7314207208,-2.0914380625,6,Pteridium aquilinum,common bracken
+2022-08-14 13:17:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222465877/medium.jpeg,53.731408027,-2.0913552493,6,Athyrium filix-femina,lady fern
+2022-08-14 13:17:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222465917/medium.jpeg,53.731469909,-2.0912224799,8,Dryopteris affinis,Golden-scaled Male-fern
+2022-08-14 13:19:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222466007/medium.jpeg,53.7314653472,-2.0912181213,8,Dryopteris cambrensis,Narrow Male-fern
+2022-08-14 13:23:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222466223/medium.jpeg,53.7313116338,-2.0915946364,6,Struthiopteris spicant,hard fern
+2022-08-14 13:25:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/222466280/medium.jpeg,53.7311148799,-2.0920871571,8,Equisetum arvense,field horsetail
+2022-08-18 16:12:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223524422/medium.jpeg,53.7256512188,-2.1114594117,4,Equisetum arvense,field horsetail
+2022-08-18 16:15:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223524625/medium.jpeg,53.726016609,-2.1116780117,8,Dryopteris dilatata,broad buckler-fern
+2022-08-18 16:21:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223524946/medium.jpeg,53.7261187669,-2.1123240888,8,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2022-08-18 16:25:27 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525022/medium.jpeg,53.7269631969,-2.1143850312,6,Dryopteris filix-mas,male fern
+2022-08-18 16:41:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525086/medium.jpeg,53.7228841079,-2.1146136895,15,Dryopteris affinis,Golden-scaled Male-fern
+2022-08-18 16:42:29 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525173/medium.jpeg,53.7227793632,-2.1146773919,8,Athyrium filix-femina,lady fern
+2022-08-18 16:43:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525257/medium.jpeg,53.7226039366,-2.1146875407,4,Dryopteris dilatata,broad buckler-fern
+2022-08-18 16:47:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525337/medium.jpeg,53.7218467664,-2.114696838,12,Struthiopteris spicant,hard fern
+2022-08-18 16:48:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525377/medium.jpeg,53.7218509325,-2.1147193015,3,Pteridium aquilinum,common bracken
+2022-08-18 16:48:41 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/223525413/medium.jpeg,53.7218144296,-2.1147367358,3,Dryopteris dilatata,broad buckler-fern
+2022-08-24 10:57:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/224958942/medium.jpeg,53.7144850161,-2.0999190209,8,Asplenium scolopendrium,Hart's-tongue fern
+2022-08-24 11:00:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/224959042/medium.jpeg,53.7141566669,-2.100472413,8,Equisetum arvense,field horsetail
+2022-08-24 11:00:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/224959067/medium.jpeg,53.7141865244,-2.1005365472,8,Athyrium filix-femina,lady fern
+2022-08-24 11:01:24 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/224959097/medium.jpeg,53.7140203514,-2.1006672084,8,Asplenium trichomanes,maidenhair spleenwort
+2022-08-24 11:04:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/224959129/medium.jpeg,53.7132339986,-2.1010648459,8,Asplenium adiantum-nigrum,black spleenwort
+2022-08-24 11:05:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/224959160/medium.jpeg,53.7132828113,-2.1011785045,4,Dryopteris affinis,Golden-scaled Male-fern
+2022-08-27 13:58:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225657742/medium.jpeg,53.7200729701,-2.0902642608,6,Pteridium aquilinum,common bracken
+2022-08-27 14:20:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658163/medium.jpeg,53.7231392238,-2.0909891278,4,Pteridium aquilinum,common bracken
+2022-08-27 14:21:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658218/medium.jpeg,53.7237637154,-2.0914176106,6,Dryopteris dilatata,broad buckler-fern
+2022-08-27 14:32:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658311/medium.jpeg,53.7250965813,-2.0936123282,8,Asplenium scolopendrium,Hart's-tongue fern
+2022-08-27 14:34:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658362/medium.jpeg,53.7250110839,-2.0947519317,8,Struthiopteris spicant,hard fern
+2022-08-27 14:38:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658522/medium.jpeg,53.7247131313,-2.0946734771,6,Pteridium aquilinum,common bracken
+2022-08-27 14:40:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658720/medium.jpeg,53.7246930958,-2.0948971063,8,Struthiopteris spicant,hard fern
+2022-08-27 14:42:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225658778/medium.jpeg,53.7243899831,-2.0943006501,8,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2022-08-28 15:34:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225849073/medium.jpeg,53.7803203803,-2.141159712,4,Struthiopteris spicant,hard fern
+2022-08-28 15:35:03 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/225849160/medium.jpeg,53.7803308485,-2.1411742589,6,Oreopteris limbosperma,Lemon-scented Fern
+2022-08-29 11:12:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/226156004/medium.jpeg,53.7296945351,-2.063287273,8,Struthiopteris spicant,hard fern
+2022-08-29 11:19:39 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/226156384/medium.jpeg,53.7302875909,-2.0629392564,6,Struthiopteris spicant,hard fern
+2022-08-29 11:20:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/226156426/medium.jpeg,53.7302986982,-2.0629147813,8,Equisetum sylvaticum,wood horsetail
+2022-08-29 12:19:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/226156871/medium.jpeg,53.7388998412,-2.0468835533,8,Equisetum arvense,field horsetail
+2022-08-29 12:36:25 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/226157350/medium.jpeg,53.7426902477,-2.03599155,4,Pteridium aquilinum,common bracken
+2022-08-29 12:54:26 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/226157405/medium.jpeg,53.7440550756,-2.0283321874,8,Asplenium scolopendrium,Hart's-tongue fern
+2022-09-02 16:07:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/227131209/medium.jpeg,53.7211303926,-2.0906840265,6,Dryopteris affinis,Golden-scaled Male-fern
+2022-09-07 10:09:24 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228380856/medium.jpeg,53.7178013065,-2.0613031089,8,Dryopteris affinis,Golden-scaled Male-fern
+2022-09-07 10:10:20 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228380929/medium.jpeg,53.717695853,-2.0611246604,8,Dryopteris dilatata,broad buckler-fern
+2022-09-07 10:11:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228380967/medium.jpeg,53.7175987356,-2.0614241436,6,Dryopteris borreri,Borrer's Male-fern
+2022-09-07 10:13:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381038/medium.jpeg,53.7175148103,-2.0615176857,6,Equisetum sylvaticum,wood horsetail
+2022-09-07 10:15:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381062/medium.jpeg,53.7174185836,-2.0614030212,3,Athyrium filix-femina,lady fern
+2022-09-07 10:20:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381151/medium.jpeg,53.7175160261,-2.061469382,8,Struthiopteris spicant,hard fern
+2022-09-07 10:33:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381173/medium.jpeg,53.7162416357,-2.060184797,8,Dryopteris borreri,Borrer's Male-fern
+2022-09-07 10:36:56 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381218/medium.jpeg,53.7164793204,-2.0596569031,8,Asplenium scolopendrium,Hart's-tongue fern
+2022-09-07 10:37:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381261/medium.jpeg,53.7165208143,-2.0596313411,6,Struthiopteris spicant,hard fern
+2022-09-07 10:37:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381280/medium.jpeg,53.7165209865,-2.0596186817,6,Athyrium filix-femina,lady fern
+2022-09-07 10:45:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381365/medium.jpeg,53.7180201455,-2.0616149157,8,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2022-09-07 10:50:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381469/medium.jpeg,53.7184556376,-2.0620655268,6,Oreopteris limbosperma,Lemon-scented Fern
+2022-09-07 10:52:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381497/medium.jpeg,53.7185281732,-2.0621135798,8,Equisetum arvense,field horsetail
+2022-09-07 10:55:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228381594/medium.jpeg,53.7184941273,-2.0626294613,6,Dryopteris filix-mas,male fern
+2022-09-08 14:58:52 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228689188/medium.jpeg,53.7382014073,-2.166804783,6,Struthiopteris spicant,hard fern
+2022-09-08 15:17:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228689336/medium.jpeg,53.7372203708,-2.1678455,8,Dryopteris borreri,Borrer's Male-fern
+2022-09-08 15:38:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228689587/medium.jpeg,53.7367693329,-2.1668611051,16,Pteridium aquilinum,common bracken
+2022-09-08 16:17:13 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/228689625/medium.jpeg,53.7388815562,-2.1658119371,8,Dryopteris filix-mas,male fern
+2022-09-10 15:50:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/229152983/medium.jpeg,53.7211732445,-2.0890901238,8,Dryopteris borreri,Borrer's Male-fern
+2022-09-15 11:08:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/230391841/medium.jpeg,53.7162352815,-2.1054422974,8,Athyrium filix-femina,lady fern
+2022-09-15 11:10:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/230391893/medium.jpeg,53.7163507504,-2.1052641794,8,Dryopteris dilatata,broad buckler-fern
+2022-09-15 11:19:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/230391990/medium.jpeg,53.7156489657,-2.1019590273,8,Dryopteris filix-mas,male fern
+2022-09-24 10:44:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232532762/medium.jpeg,53.7158696666,-2.0989511755,6,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2022-09-24 10:45:18 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232532785/medium.jpeg,53.7158413544,-2.0989347099,4,Dryopteris filix-mas,male fern
+2022-09-24 10:46:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232532829/medium.jpeg,53.7154451939,-2.0984064415,8,Athyrium filix-femina,lady fern
+2022-09-24 11:00:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232532894/medium.jpeg,53.715322814,-2.1037253378,12,Dryopteris dilatata,broad buckler-fern
+2022-09-24 11:11:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232532951/medium.jpeg,53.716831497,-2.1080556884,6,Dryopteris borreri,Borrer's Male-fern
+2022-09-24 11:17:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232533004/medium.jpeg,53.7169011383,-2.1073019877,8,Polypodium vulgare,common polypody
+2022-09-24 11:19:24 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232533109/medium.jpeg,53.7168307033,-2.1073663607,8,Polystichum aculeatum,hard shield fern
+2022-09-24 11:22:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232533163/medium.jpeg,53.7169495499,-2.1062760428,8,Equisetum sylvaticum,wood horsetail
+2022-09-24 11:25:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/232533249/medium.jpeg,53.7168580837,-2.1042144299,8,Equisetum arvense,field horsetail
+2022-09-26 10:24:23 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/233500822/medium.jpeg,53.721698771,-2.0919336006,3,Dryopteris filix-mas,male fern
+2022-10-02 16:46:43 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/234650114/medium.jpeg,53.7304319858,-2.1113491058,8,Struthiopteris spicant,hard fern
+2022-10-09 13:28:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/236076886/medium.jpeg,53.7144126291,-2.0845134491,8,Athyrium filix-femina,lady fern
+2022-10-09 13:28:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/236076955/medium.jpeg,53.7145193792,-2.0842762291,7,Dryopteris filix-mas,male fern
+2022-10-15 12:18:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/237368740/medium.jpeg,53.7180772855,-2.1068758518,8,Cyrtomium fortunei,Fortune's Holly-fern
+2022-10-17 09:37:22 UTC,https://static.inaturalist.org/photos/237845527/medium.jpeg,53.67976081,-2.08364312,9,Struthiopteris spicant,hard fern
+2022-10-23 12:23:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/239159858/medium.jpeg,53.7185332122,-2.0962486044,6,Asplenium ruta-muraria,wall-rue
+2022-12-18 19:59:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/248254380/medium.jpeg,53.7162979644,-2.0896618103,6,Asplenium ruta-muraria,wall-rue
+2023-02-14 16:50:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/256251437/medium.jpeg,53.7184268311,-2.0890526013,8,Dryopteris dilatata,broad buckler-fern
+2023-02-14 16:51:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/256251465/medium.jpeg,53.7184758751,-2.0890028135,8,Asplenium scolopendrium,Hart's-tongue fern
+2023-03-23 10:25:15 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/262394328/medium.jpeg,53.7181734698,-2.1069077821,6,Asplenium ruta-muraria,wall-rue
+2023-04-07 15:29:25 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/265720722/medium.jpeg,53.7088428753,-2.1036815895,8,Asplenium ceterach,Rustyback
+2023-04-08 15:25:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/266059724/medium.jpeg,53.7283291837,-2.0809503602,6,Struthiopteris spicant,hard fern
+2023-04-21 18:38:15 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/269591101/medium.jpeg,53.7134840997,-2.0938594769,8,Asplenium trichomanes,maidenhair spleenwort
+2023-04-21 18:41:29 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/269591281/medium.jpeg,53.7133031222,-2.0936746006,6,Asplenium ruta-muraria,wall-rue
+2023-04-21 18:45:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/269591333/medium.jpeg,53.7135660566,-2.0913458926,8,Asplenium trichomanes,maidenhair spleenwort
+2023-04-22 17:28:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/269887616/medium.jpeg,53.7211126228,-2.06113231,8,Struthiopteris spicant,hard fern
+2023-04-24 15:24:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/270530865/medium.jpeg,53.7182856771,-2.0533546553,8,Asplenium ruta-muraria,wall-rue
+2023-04-24 16:14:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/270531313/medium.jpeg,53.7155279415,-2.0546579593,6,Asplenium trichomanes,maidenhair spleenwort
+2023-05-09 14:37:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/278160726/medium.jpeg,53.7189104301,-2.0879908946,8,Polystichum setiferum,soft shield fern
+2023-05-09 15:29:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/278160912/medium.jpeg,53.7193691483,-2.0650419363,6,Struthiopteris spicant,hard fern
+2023-05-09 15:32:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/278161221/medium.jpeg,53.7191282628,-2.0649619392,8,Pteridium aquilinum,common bracken
+2023-05-09 15:35:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/278161266/medium.jpeg,53.7191021134,-2.0639316941,6,Asplenium ruta-muraria,wall-rue
+2023-05-09 15:38:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/278161314/medium.jpeg,53.7196650012,-2.0622218255,6,Asplenium scolopendrium,Hart's-tongue fern
+2023-05-13 10:50:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/279470198/medium.jpeg,53.7218280417,-2.1097421469,8,Asplenium adiantum-nigrum,black spleenwort
+2023-05-13 10:50:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/279470257/medium.jpeg,53.7218570909,-2.109638468,4,Asplenium trichomanes,maidenhair spleenwort
+2023-05-21 16:09:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/281732416/medium.jpeg,53.724788129,-2.1040823048,8,Equisetum sylvaticum,wood horsetail
+2023-05-29 12:36:39 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284460109/medium.jpeg,53.70376941,-2.1351407205,6,Asplenium ruta-muraria,wall-rue
+2023-05-29 12:38:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284460462/medium.jpeg,53.7039813602,-2.1353770035,6,Pteridium aquilinum,common bracken
+2023-05-29 12:44:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284462513/medium.jpeg,53.7057167719,-2.1332557127,6,Dryopteris borreri,Borrer's Male-fern
+2023-05-29 12:46:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284462968/medium.jpeg,53.7056842962,-2.1332057198,8,Athyrium filix-femina,lady fern
+2023-05-29 12:48:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284463352/medium.jpeg,53.7059044509,-2.1329683692,8,Dryopteris dilatata,broad buckler-fern
+2023-05-29 12:49:45 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284463468/medium.jpeg,53.7059484035,-2.1329362004,8,Struthiopteris spicant,hard fern
+2023-05-29 12:53:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284464384/medium.jpeg,53.7066250206,-2.1315376219,8,Equisetum sylvaticum,wood horsetail
+2023-05-29 12:55:45 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284465259/medium.jpeg,53.7068030544,-2.1301625013,8,Dryopteris affinis,Golden-scaled Male-fern
+2023-05-29 13:00:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284466227/medium.jpeg,53.7074087517,-2.1286148794,8,Asplenium scolopendrium,Hart's-tongue fern
+2023-05-29 13:08:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/284468393/medium.jpeg,53.7082627098,-2.124497084,8,Equisetum arvense,field horsetail
+2023-07-10 15:35:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870328/medium.jpeg,53.7204573851,-2.0809817092,8,Asplenium trichomanes,maidenhair spleenwort
+2023-07-10 15:36:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870384/medium.jpeg,53.720467254,-2.0807722592,6,Asplenium ruta-muraria,wall-rue
+2023-07-10 15:37:15 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870445/medium.jpeg,53.7204513964,-2.0801176259,8,Asplenium adiantum-nigrum,black spleenwort
+2023-07-10 15:37:45 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870498/medium.jpeg,53.7204834437,-2.0800933242,8,Asplenium adiantum-nigrum,black spleenwort
+2023-07-10 15:39:20 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870595/medium.jpeg,53.7204652449,-2.0792186885,6,Pteridium aquilinum,common bracken
+2023-07-10 15:44:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870656/medium.jpeg,53.7208361652,-2.0752465038,8,Struthiopteris spicant,hard fern
+2023-07-10 15:48:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/298870863/medium.jpeg,53.7209583212,-2.0726909976,8,Pteridium aquilinum,common bracken
+2023-07-16 14:23:10 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/300911496/medium.jpeg,53.7008029785,-2.0038906027,4,Oreopteris limbosperma,Lemon-scented Fern
+2023-07-16 14:23:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/300911622/medium.jpeg,53.7008327222,-2.0038834583,8,Pteridium aquilinum,common bracken
+2023-07-29 11:03:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/306420839/medium.jpeg,53.7238289285,-2.0935065819,6,Asplenium scolopendrium,Hart's-tongue fern
+2023-12-16 12:12:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/341102168/medium.jpeg,53.7251778043,-2.0940780059,6,Struthiopteris spicant,hard fern
+2023-12-16 12:19:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/341102197/medium.jpeg,53.7250500609,-2.0951130324,12,Asplenium scolopendrium,Hart's-tongue fern
+2023-12-22 11:23:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/342053878/medium.jpeg,53.7197765392,-2.095313543,8,Asplenium ruta-muraria,wall-rue
+2023-12-22 11:27:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/342053890/medium.jpeg,53.7211328074,-2.0949460081,8,Asplenium scolopendrium,Hart's-tongue fern
+2023-12-22 11:28:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/342053897/medium.jpeg,53.7213561189,-2.094962812,8,Dryopteris dilatata,broad buckler-fern
+2023-12-22 11:37:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/342053922/medium.jpeg,53.7199308033,-2.0980648672,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-01-13 16:21:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/346015468/medium.jpeg,53.7188129886,-2.0887989893,8,Asplenium trichomanes,maidenhair spleenwort
+2024-01-13 16:22:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/346015497/medium.jpeg,53.718920691,-2.0886566169,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-01-21 13:43:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/347335038/medium.jpeg,53.7495393932,-2.0481145409,3,Struthiopteris spicant,hard fern
+2024-01-21 13:45:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/347335073/medium.jpeg,53.7495535437,-2.0473864853,8,Dryopteris dilatata,broad buckler-fern
+2024-01-21 13:49:18 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/347335098/medium.jpeg,53.7493396669,-2.0455116034,8,Pteridium aquilinum,common bracken
+2024-01-21 14:00:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/347335151/medium.jpeg,53.7492732091,-2.0406653896,8,Dryopteris dilatata,broad buckler-fern
+2024-01-21 14:03:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/347335187/medium.jpeg,53.7492747046,-2.0394840757,8,Pteridium aquilinum,common bracken
+2024-01-21 14:21:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/347335295/medium.jpeg,53.7498011816,-2.0342917069,8,Struthiopteris spicant,hard fern
+2024-02-10 14:56:51 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/350852136/medium.jpeg,53.7146424296,-2.0998798365,8,Asplenium trichomanes,maidenhair spleenwort
+2024-02-10 15:00:43 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/350852163/medium.jpeg,53.7135443349,-2.100863345,8,Asplenium adiantum-nigrum,black spleenwort
+2024-02-24 16:03:10 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/354078045/medium.jpeg,53.727058311,-2.1160682805,8,Asplenium trichomanes,maidenhair spleenwort
+2024-02-24 16:03:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/354078083/medium.jpeg,53.7270753066,-2.1161242196,6,Asplenium scolopendrium,Hart's-tongue fern
+2024-02-24 16:11:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/354078111/medium.jpeg,53.7282315122,-2.1171389248,8,Struthiopteris spicant,hard fern
+2024-02-24 16:39:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/354078131/medium.jpeg,53.7344163781,-2.1143940379,8,Struthiopteris spicant,hard fern
+2024-02-24 16:41:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/354078150/medium.jpeg,53.7342212612,-2.1136970908,4,Pteridium aquilinum,common bracken
+2024-03-03 10:59:39 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/358613327/medium.jpeg,53.7162934097,-2.1104146913,6,Pteridium aquilinum,common bracken
+2024-03-18 17:05:41 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/358613972/medium.jpeg,53.7492300205,-2.0979307279,2,Struthiopteris spicant,hard fern
+2024-04-05 16:56:25 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/363442857/medium.jpeg,53.7252519614,-2.0931246784,8,Dryopteris dilatata,broad buckler-fern
+2024-04-05 17:01:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/363442939/medium.jpeg,53.7237483581,-2.0927620901,8,Athyrium filix-femina,lady fern
+2024-04-07 16:33:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/364238250/medium.jpeg,53.7162236469,-2.1005725102,8,Asplenium trichomanes,maidenhair spleenwort
+2024-04-07 16:33:41 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/364238318/medium.jpeg,53.7161892935,-2.1007016617,8,Polystichum setiferum,soft shield fern
+2024-04-07 16:34:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/364238406/medium.jpeg,53.7161561447,-2.1006223851,8,Dryopteris dilatata,broad buckler-fern
+2024-04-07 16:34:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/364238479/medium.jpeg,53.7161462894,-2.1006126645,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-04-07 16:35:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/364238548/medium.jpeg,53.7161520095,-2.1006860396,8,Athyrium filix-femina,lady fern
+2024-04-20 10:52:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368451790/medium.jpeg,53.7074880701,-2.1283533534,6,Equisetum sylvaticum,wood horsetail
+2024-04-20 10:56:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368451821/medium.jpeg,53.7073449756,-2.1288791752,6,Polystichum aculeatum,hard shield fern
+2024-04-20 11:08:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368451884/medium.jpeg,53.7070738978,-2.1298263106,6,Struthiopteris spicant,hard fern
+2024-04-20 11:09:20 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368451930/medium.jpeg,53.7071838681,-2.1296807273,8,Athyrium filix-femina,lady fern
+2024-04-20 11:09:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368451955/medium.jpeg,53.7070639502,-2.1297280535,6,Dryopteris dilatata,broad buckler-fern
+2024-04-20 11:43:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368452209/medium.jpeg,53.7054255195,-2.1332598374,6,Pteridium aquilinum,common bracken
+2024-04-20 11:43:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/368452253/medium.jpeg,53.705263552,-2.1332354903,8,Dryopteris dilatata,broad buckler-fern
+2024-05-03 16:13:18 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/376748642/medium.jpeg,53.7180661151,-2.0936231029,8,Dryopteris filix-mas,male fern
+2024-05-03 16:13:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/376748758/medium.jpeg,53.7178665814,-2.0933451131,7,Dryopteris dilatata,broad buckler-fern
+2024-05-09 15:47:40 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/379363139/medium.jpeg,53.71891147,-2.0980803858,8,Asplenium trichomanes,maidenhair spleenwort
+2024-05-11 14:26:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/380112063/medium.jpeg,53.7356317064,-2.0498151359,8,Pteridium aquilinum,common bracken
+2024-05-11 14:28:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/380112321/medium.jpeg,53.7355184838,-2.0499346506,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-05-11 14:47:42 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/380112798/medium.jpeg,53.7377097994,-2.0557209984,4,Pteridium aquilinum,common bracken
+2024-05-11 14:51:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/380112881/medium.jpeg,53.7377249485,-2.0572231066,4,Struthiopteris spicant,hard fern
+2024-05-12 11:50:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/380530150/medium.jpeg,53.7286546434,-2.1135267351,8,Struthiopteris spicant,hard fern
+2024-05-12 11:51:54 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/380530268/medium.jpeg,53.7284630829,-2.1137754439,8,Pteridium aquilinum,common bracken
+2024-05-15 11:16:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/383016972/medium.jpeg,53.7105618309,-2.1038053744,8,Cystopteris fragilis,brittle bladderfern
+2024-05-20 16:02:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/384132285/medium.jpeg,53.7282158055,-2.0948211577,8,Struthiopteris spicant,hard fern
+2024-05-26 10:45:43 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/386350032/medium.jpg,53.7178333333,-2.1083445,16,Equisetum sylvaticum,wood horsetail
+2024-06-04 08:55:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/390325422/medium.jpeg,53.720451367,-2.108000294,8,Asplenium ruta-muraria,wall-rue
+2024-06-04 08:55:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/390325511/medium.jpeg,53.7203680898,-2.1080342671,8,Asplenium trichomanes,maidenhair spleenwort
+2024-06-08 11:17:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/391897101/medium.jpeg,53.7570642623,-2.0678771249,6,Athyrium filix-femina,lady fern
+2024-06-08 11:35:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/391897223/medium.jpeg,53.7601446821,-2.0770559508,6,Struthiopteris spicant,hard fern
+2024-06-08 12:17:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/391897495/medium.jpeg,53.7610940591,-2.0706357434,8,Equisetum arvense,field horsetail
+2024-06-09 10:31:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/392371870/medium.jpeg,53.7193988861,-2.0962200923,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-06-14 15:34:52 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/394475292/medium.jpeg,53.7215996409,-2.091068176,6,Dryopteris carthusiana,narrow buckler-fern
+2024-06-14 16:33:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/394534825/medium.jpeg,53.7312042035,-2.1144812347,4,Pteridium aquilinum,common bracken
+2024-06-19 11:15:43 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/398712813/medium.jpeg,53.7369332106,-2.1039894596,3,Struthiopteris spicant,hard fern
+2024-07-02 16:00:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/402164735/medium.jpeg,53.7324168874,-2.1140782564,12,Pteridium aquilinum,common bracken
+2024-07-29 17:04:45 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/413909523/medium.jpeg,53.719465597,-2.0853841857,8,Struthiopteris spicant,hard fern
+2024-07-31 17:41:15 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/413909921/medium.jpeg,53.7165995644,-2.0974228715,8,Asplenium trichomanes,maidenhair spleenwort
+2024-08-06 16:20:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/416284141/medium.jpeg,53.7204154401,-2.0806665841,8,Asplenium ruta-muraria,wall-rue
+2024-08-06 16:21:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/416284205/medium.jpeg,53.7203962232,-2.0806678906,6,Asplenium trichomanes,maidenhair spleenwort
+2024-08-13 17:10:40 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/418970175/medium.jpeg,53.726778126,-2.1131880954,8,Polystichum setiferum,soft shield fern
+2024-08-13 17:15:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/418970537/medium.jpeg,53.7267854654,-2.1136641875,8,Athyrium filix-femina,lady fern
+2024-08-13 17:17:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/418970772/medium.jpeg,53.7270279262,-2.1141185348,8,Equisetum arvense,field horsetail
+2024-08-14 08:05:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/419254276/medium.jpeg,53.7255026417,-2.0542881265,8,Dryopteris filix-mas,male fern
+2024-08-19 16:22:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/421270463/medium.jpeg,53.7310335599,-2.0853930339,6,Athyrium filix-femina,lady fern
+2024-08-19 16:28:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/421270817/medium.jpeg,53.7311719096,-2.0908498571,8,Oreopteris limbosperma,Lemon-scented Fern
+2024-08-19 16:29:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/421270929/medium.jpeg,53.7312730818,-2.0912348355,8,Pteridium aquilinum,common bracken
+2024-08-19 16:32:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/421270995/medium.jpeg,53.7313039636,-2.0916838572,8,Struthiopteris spicant,hard fern
+2024-08-19 17:03:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/421271679/medium.jpeg,53.7252550448,-2.1022950785,8,Struthiopteris spicant,hard fern
+2024-09-27 14:59:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/435874106/medium.jpeg,53.7241655633,-2.1087984251,6,Asplenium ruta-muraria,wall-rue
+2024-09-27 14:59:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/435874170/medium.jpeg,53.7241392515,-2.1088486246,6,Asplenium trichomanes,maidenhair spleenwort
+2024-09-26 14:20:11 UTC,https://static.inaturalist.org/photos/437922011/medium.jpeg,53.7585366667,-2.0189333333,4,Asplenium trichomanes,maidenhair spleenwort
+2024-11-01 09:46:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/447102870/medium.jpeg,53.7202069196,-1.9925764353,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-11-01 09:46:26 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/447102925/medium.jpeg,53.7201593915,-1.9925830545,8,Dryopteris filix-mas,male fern
+2024-11-01 09:46:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/447102991/medium.jpeg,53.7201568248,-1.9925203597,2,Dryopteris dilatata,broad buckler-fern
+2024-11-01 09:47:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/447103064/medium.jpeg,53.7199500705,-1.9930892289,8,Pteridium aquilinum,common bracken
+2024-11-01 09:51:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/447103098/medium.jpeg,53.7200179207,-1.9954920405,8,Athyrium filix-femina,lady fern
+2024-11-01 11:25:03 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/447103146/medium.jpeg,53.7215199027,-2.0051262666,8,Struthiopteris spicant,hard fern
+2024-11-09 10:15:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/449300130/medium.jpeg,53.7211345829,-2.0907141748,8,Dryopteris borreri,Borrer's Male-fern
+2024-11-16 12:03:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/450775409/medium.jpeg,53.7182926531,-2.0935350976,4,Dryopteris filix-mas,male fern
+2024-11-16 12:05:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/450775447/medium.jpeg,53.7179659815,-2.0934762061,8,Dryopteris dilatata,broad buckler-fern
+2024-11-16 14:53:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/450824098/medium.jpeg,53.726787964,-2.0805859788,6,Asplenium scolopendrium,Hart's-tongue fern
+2024-11-16 14:53:57 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/450824134/medium.jpeg,53.72682228,-2.0805803297,6,Asplenium trichomanes,maidenhair spleenwort
+2024-11-17 14:36:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/451071196/medium.jpeg,53.7082700308,-2.1096567285,8,Asplenium scolopendrium,Hart's-tongue fern
+2024-11-17 14:36:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/451071222/medium.jpeg,53.7081310514,-2.1096485034,8,Athyrium filix-femina,lady fern
+2024-11-17 14:37:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/451071249/medium.jpeg,53.7080178672,-2.1094759153,8,Dryopteris dilatata,broad buckler-fern
+2024-11-17 14:38:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/451071311/medium.jpeg,53.7077970811,-2.1086671133,8,Dryopteris filix-mas,male fern
+2024-11-17 14:42:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/451071362/medium.jpeg,53.7072278161,-2.1086781512,8,Pteridium aquilinum,common bracken
+2024-11-30 15:08:43 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/454519002/medium.jpeg,53.7372366667,-2.008,12,Asplenium scolopendrium,Hart's-tongue fern
+2024-11-30 13:11:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/454524201/medium.jpeg,53.7068666667,-2.0199945,12,Struthiopteris spicant,hard fern
+2024-11-30 12:58:51 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/454524671/medium.jpeg,53.7052033333,-2.0300611667,16,Asplenium trichomanes,maidenhair spleenwort
+2024-09-17 12:37:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/454526438/medium.jpeg,53.7292166667,-2.0508361667,6,Osmunda regalis,European royal fern
+2024-09-17 12:39:10 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/454526599/medium.jpeg,53.7291916667,-2.0508028333,16,Osmunda regalis,European royal fern
+2024-08-13 13:47:18 UTC,https://static.inaturalist.org/photos/456671191/medium.jpg,53.7605883333,-2.0335555,15,Struthiopteris spicant,hard fern
+2024-12-31 11:00:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/460672252/medium.jpeg,53.7266551277,-2.1131868019,8,Polystichum setiferum,soft shield fern
+2024-12-31 11:01:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/460672314/medium.jpeg,53.7267414315,-2.1132581286,8,Asplenium scolopendrium,Hart's-tongue fern
+2025-01-04 11:30:25 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/461628770/medium.jpeg,53.7269892342,-2.114431223,8,Polystichum setiferum,soft shield fern
+2025-02-22 12:20:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/471979746/medium.jpg,53.75092,-2.01643055,6,Struthiopteris spicant,hard fern
+2025-02-22 16:28:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472237687/medium.jpg,53.761345,-2.0234333333,4,Pteridium aquilinum,common bracken
+2025-02-22 12:19:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472353098/medium.jpeg,53.750900003,-2.0166034988,4,Struthiopteris spicant,hard fern
+2025-02-22 13:05:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472353540/medium.jpeg,53.7586533427,-2.0187373496,8,Asplenium trichomanes,maidenhair spleenwort
+2025-02-22 13:25:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472353593/medium.jpeg,53.7580165146,-2.0236269225,8,Polypodium vulgare,common polypody
+2025-02-22 13:58:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472353849/medium.jpeg,53.7606120524,-2.0378506104,8,Polypodium vulgare,common polypody
+2025-02-22 14:14:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472353959/medium.jpeg,53.7618265444,-2.040168516,8,Polypodium vulgare,common polypody
+2025-02-22 14:28:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472354035/medium.jpeg,53.7647481796,-2.0419615648,8,Asplenium scolopendrium,Hart's-tongue fern
+2025-02-22 14:31:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/472354054/medium.jpeg,53.7649246597,-2.0426564061,4,Polypodium vulgare,common polypody
+2025-03-09 09:41:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/475211553/medium.jpg,53.7125190901,-2.0980304952,4,Asplenium trichomanes,maidenhair spleenwort
+2025-04-19 15:32:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/488324383/medium.jpeg,53.7080974179,-2.1094421607,8,Dryopteris filix-mas,male fern
+2025-04-20 09:42:10 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/488813826/medium.jpeg,53.7189589429,-2.0923491131,6,Athyrium filix-femina,lady fern
+2025-04-20 09:42:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/488813939/medium.jpeg,53.7189605985,-2.0923046803,6,Dryopteris dilatata,broad buckler-fern
+2025-04-20 09:43:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/488814030/medium.jpeg,53.719150057,-2.0922288773,8,Asplenium trichomanes,maidenhair spleenwort
+2025-04-20 09:43:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/488814148/medium.jpeg,53.7190995448,-2.0922414464,8,Asplenium scolopendrium,Hart's-tongue fern
+2025-04-26 19:01:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/492792095/medium.jpeg,53.7157725775,-2.1028079465,6,Dryopteris dilatata,broad buckler-fern
+2025-04-26 19:02:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/492792352/medium.jpeg,53.71558041,-2.10327267,8,Athyrium filix-femina,lady fern
+2025-04-26 19:04:24 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/492792756/medium.jpeg,53.7158641,-2.104233,8,Asplenium scolopendrium,Hart's-tongue fern
+2025-04-26 19:07:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/492792967/medium.jpeg,53.71652226,-2.10596814,8,Struthiopteris spicant,hard fern
+2025-04-28 17:27:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/495600487/medium.jpeg,53.71518981,-2.09296071,8,Equisetum arvense,field horsetail
+2025-05-10 15:21:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/502882800/medium.jpg,53.7789633333,-2.0128583333,5,Pteridium aquilinum,common bracken
+2025-05-23 16:03:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/509225256/medium.jpg,53.7180261221,-2.0692248456,9,Athyrium filix-femina,lady fern
+2025-05-25 11:26:42 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/510184955/medium.jpg,53.7178222742,-2.1013619844,7,Equisetum arvense,field horsetail
+2025-05-25 12:02:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/510197813/medium.jpg,53.71694603,-2.1052371059,10,Equisetum sylvaticum,wood horsetail
+2025-05-27 16:05:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/511451107/medium.jpg,53.7165526673,-2.0680543128,5,Pteridium aquilinum,common bracken
+2025-05-27 20:09:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/511810746/medium.jpg,53.7167267594,-2.0678956434,13,Athyrium filix-femina,lady fern
+2025-07-02 16:06:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/530423335/medium.jpg,53.749645,-2.0166611167,6,Asplenium scolopendrium,Hart's-tongue fern
+2025-07-22 07:13:29 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/540625453/medium.jpg,53.71884941,-2.09835696,4,Asplenium ruta-muraria,wall-rue
+2025-07-22 07:13:51 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/540625493/medium.jpg,53.71892841,-2.09838141,7,Asplenium scolopendrium,Hart's-tongue fern
+2025-07-22 07:14:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/540625546/medium.jpg,53.71900014,-2.0982254,9,Asplenium trichomanes,maidenhair spleenwort
+2025-08-11 19:00:25 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/551027824/medium.jpg,53.71592516,-2.10384326,6,Asplenium scolopendrium,Hart's-tongue fern
+2025-08-11 19:01:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/551027881/medium.jpg,53.71611209,-2.10396341,9,Athyrium filix-femina,lady fern
+2025-08-11 19:02:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/551027984/medium.jpg,53.71599789,-2.10419197,8,Dryopteris dilatata,broad buckler-fern
+2025-08-11 19:07:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/551028087/medium.jpg,53.71658364,-2.10589585,8,Struthiopteris spicant,hard fern
+2025-08-11 19:15:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/551028315/medium.jpg,53.71687413,-2.10421946,7,Equisetum arvense,field horsetail
+2025-08-13 15:56:03 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/552005808/medium.jpg,53.70918081,-2.0732343,7,Struthiopteris spicant,hard fern
+2025-08-13 16:05:52 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/552005963/medium.jpg,53.70928509,-2.07347561,6,Pteridium aquilinum,common bracken
+2025-08-13 16:06:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/552005998/medium.jpg,53.70922105,-2.07325066,9,Asplenium scolopendrium,Hart's-tongue fern
+2025-08-18 15:47:28 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699226/medium.jpg,53.73109377,-2.09214906,4,Equisetum arvense,field horsetail
+2025-08-18 15:51:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699272/medium.jpg,53.73081456,-2.09554497,3,Oreopteris limbosperma,Lemon-scented Fern
+2025-08-18 15:52:15 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699362/medium.jpg,53.73083333,-2.09554529,3,Dryopteris affinis,Golden-scaled Male-fern
+2025-08-18 15:52:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699460/medium.jpg,53.73082642,-2.09554973,7,Dryopteris dilatata,broad buckler-fern
+2025-08-18 15:53:31 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699600/medium.jpg,53.73083036,-2.09555896,8,Athyrium filix-femina,lady fern
+2025-08-18 16:12:48 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699714/medium.jpg,53.72782054,-2.10057749,3,Struthiopteris spicant,hard fern
+2025-08-18 16:13:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/554699779/medium.jpg,53.72780407,-2.10030423,3,Oreopteris limbosperma,Lemon-scented Fern
+2025-08-17 17:25:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/555180489/medium.jpg,53.7475149102,-2.0284439848,19,Asplenium scolopendrium,Hart's-tongue fern
+2025-08-20 15:09:13 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/555180693/medium.jpg,53.7469768229,-2.0275756449,18,Struthiopteris spicant,hard fern
+2025-08-20 15:19:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/555180812/medium.jpg,53.7479670931,-2.0263916966,3,Dryopteris dilatata,broad buckler-fern
+2025-08-23 10:47:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/556413522/medium.jpg,53.7181401791,-2.0900949463,4,Dryopteris cambrensis,Narrow Male-fern
+2025-08-23 10:52:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/556413846/medium.jpg,53.7184586136,-2.0892111585,6,Asplenium scolopendrium,Hart's-tongue fern
+2025-08-23 10:52:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/556413903/medium.jpg,53.7185050394,-2.0891149342,7,Dryopteris dilatata,broad buckler-fern
+2025-08-23 11:30:26 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/556414215/medium.jpg,53.7229569051,-2.0689179262,16,Asplenium scolopendrium,Hart's-tongue fern
+2025-08-29 08:23:13 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/559299044/medium.jpg,53.719598,-2.096973,9,Equisetum arvense,field horsetail
+2025-09-12 16:08:26 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/565862750/medium.jpg,53.72998956,-2.08222839,4,Struthiopteris spicant,hard fern
+2025-09-26 12:01:48 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/572244360/medium.jpg,53.68993187,-2.06977403,5,Asplenium trichomanes,maidenhair spleenwort
+2025-09-29 10:39:54 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/573733173/medium.jpg,53.71827303,-2.09353978,9,Dryopteris filix-mas,male fern
+2025-09-29 10:40:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/573733319/medium.jpg,53.71828349,-2.09353193,8,Dryopteris dilatata,broad buckler-fern
+2025-10-05 15:14:20 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/576405497/medium.jpg,53.72284164,-2.00665173,6,Struthiopteris spicant,hard fern
+2025-10-12 13:36:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/579286047/medium.jpg,53.73357478,-2.13169152,8,Athyrium filix-femina,lady fern
+2025-10-12 13:43:24 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/579288049/medium.jpg,53.73419617,-2.13107912,6,Struthiopteris spicant,hard fern
+2025-10-12 13:45:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/579288718/medium.jpg,53.73418834,-2.13098338,6,Oreopteris limbosperma,Lemon-scented Fern
+2025-10-12 13:56:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/579293173/medium.jpg,53.73469683,-2.1305275,5,Oreopteris limbosperma,Lemon-scented Fern
+,https://inaturalist-open-data.s3.amazonaws.com/photos/582291660/medium.jpg,53.7435056048,-2.01116357,17,Osmunda regalis,European royal fern
+2025-10-25 15:27:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/584791128/medium.jpg,53.7431048736,-2.0113597065,4,Osmunda regalis,European royal fern
+2025-11-18 12:52:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/592543027/medium.jpg,53.7468381599,-2.0263659116,4,Dryopteris dilatata,broad buckler-fern
+2025-11-30 12:45:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/596104635/medium.jpg,53.77980549,-2.06443392,5,Struthiopteris spicant,hard fern
+2025-11-30 12:45:54 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/596104830/medium.jpg,53.77986381,-2.06444823,5,Dryopteris filix-mas,male fern
+2025-11-30 12:46:37 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/596389232/medium.jpg,53.77994432,-2.06458872,9,Dryopteris dilatata,broad buckler-fern
+2025-12-06 09:22:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/597643909/medium.jpg,53.7172050476,-2.1086606979,11,Asplenium scolopendrium,Hart's-tongue fern
+2025-12-22 12:50:27 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/601730693/medium.jpg,53.7233047485,-2.0043764114,9,Pteridium aquilinum,common bracken
+2025-12-24 13:21:39 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/602243623/medium.jpg,53.74513401,-2.10026445,14,Polystichum setiferum,soft shield fern
+2026-01-04 14:50:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/605369466/medium.jpg,53.7172806,-2.07673506,8,Asplenium ruta-muraria,wall-rue
+2026-01-04 14:50:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/605369521/medium.jpg,53.71727696,-2.07669265,5,Asplenium adiantum-nigrum,black spleenwort
+2026-01-04 15:02:41 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/605371709/medium.jpg,53.71252617,-2.07766514,5,Asplenium trichomanes,maidenhair spleenwort
+2025-10-14 13:00:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/611037054/medium.jpg,53.7039399138,-2.1345210448,3,Dryopteris affinis,Golden-scaled Male-fern
+2025-10-14 13:00:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/611037082/medium.jpg,53.7038200381,-2.1355010569,3,Asplenium ruta-muraria,wall-rue
+2025-10-14 13:00:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/611037272/medium.jpg,53.7098929764,-2.1366430074,3,Struthiopteris spicant,hard fern
+2026-01-18 13:42:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/611402393/medium.jpg,53.76068,-2.0356695,9,Struthiopteris spicant,hard fern
+2026-02-04 13:53:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/613228160/medium.jpg,53.7352933333,-2.053315,4,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2026-02-04 14:36:31 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/613229365/medium.jpg,53.7363015768,-2.05244679,6,Struthiopteris spicant,hard fern
+2026-02-14 15:45:41 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/615756170/medium.jpg,53.7167320251,-2.067482233,3,Asplenium scolopendrium,Hart's-tongue fern
+2026-02-28 11:30:20 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/619810882/medium.jpg,53.72674677,-2.11310134,6,Polystichum setiferum,soft shield fern
+2026-02-28 11:53:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/619811106/medium.jpg,53.72303311,-2.1115545,8,Asplenium adiantum-nigrum,black spleenwort
+2026-02-28 11:54:43 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/619868947/medium.jpg,53.72283016,-2.11120093,8,Asplenium trichomanes,maidenhair spleenwort
+2026-02-28 11:55:23 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/619868990/medium.jpg,53.7227991,-2.11123882,7,Asplenium scolopendrium,Hart's-tongue fern
+2026-02-28 16:17:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/619871379/medium.jpg,53.70473027,-2.06079774,3,Asplenium trichomanes,maidenhair spleenwort
+2026-03-10 15:25:57 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/623266777/medium.jpg,53.7568389888,-2.0612457767,3,Asplenium scolopendrium scolopendrium,European Hart's-tongue Fern
+2026-03-19 13:37:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/626409592/medium.jpg,53.6969000157,-1.9996351004,5,Struthiopteris spicant,hard fern
+2026-03-25 16:51:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/628938052/medium.jpg,53.7081916667,-2.0715916667,10,Asplenium scolopendrium,Hart's-tongue fern
+2026-03-25 17:38:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/628993206/medium.jpg,53.7140304709,-2.060316056,7,Asplenium trichomanes,maidenhair spleenwort
+2026-04-20 08:03:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/641268554/medium.jpg,53.72027346,-2.10121993,7,Asplenium ruta-muraria,wall-rue
+2026-04-20 08:03:26 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/641268596/medium.jpg,53.72028412,-2.1012139,6,Asplenium trichomanes,maidenhair spleenwort
+2026-04-20 14:24:46 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/641380029/medium.jpg,53.71551186,-2.09904588,5,Cyrtomium fortunei,Fortune's Holly-fern
+2026-04-20 18:36:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/641494166/medium.jpg,53.71806817,-2.07798108,7,Polystichum setiferum,soft shield fern
+2026-04-25 09:06:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/645140867/medium.jpg,53.7547749002,-2.016407121,11,Struthiopteris spicant,hard fern
+2026-04-25 16:08:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/645218549/medium.jpg,53.72000741,-2.0987795,6,Equisetum sylvaticum,wood horsetail
+2026-04-26 12:01:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/646374089/medium.jpg,53.7448561331,-2.0110219158,10,Asplenium trichomanes,maidenhair spleenwort
+2026-04-26 12:30:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/646399368/medium.jpg,53.7403984275,-2.0197250135,7,Asplenium trichomanes,maidenhair spleenwort
+2026-04-26 12:31:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/646400395/medium.jpg,53.7402457092,-2.0202996768,6,Asplenium scolopendrium,Hart's-tongue fern
+2026-04-26 12:38:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/646406540/medium.jpg,53.7396523543,-2.0226127468,9,Struthiopteris spicant,hard fern
+2026-04-26 18:10:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/646848355/medium.jpg,53.742513475,-2.0091365743,9,Asplenium scolopendrium,Hart's-tongue fern
+2026-04-30 13:01:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/650842431/medium.jpg,53.7500610352,-2.0411384106,9,Dryopteris dilatata,broad buckler-fern
+2026-04-30 13:03:28 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/650842418/medium.jpg,53.7500190735,-2.0410847664,17,Struthiopteris spicant,hard fern
+2026-04-30 13:04:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/650842384/medium.jpg,53.7500686646,-2.0408456326,14,Struthiopteris spicant,hard fern
+2026-04-30 18:37:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/650940818/medium.jpg,53.7446376169,-2.0095782168,12,Asplenium ruta-muraria,wall-rue
+2026-05-02 13:15:28 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/652063443/medium.jpg,53.73616754,-2.1215248,6,Equisetum fluviatile,water horsetail
+2026-05-10 10:57:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657205561/medium.jpg,53.71555962,-2.09969585,8,Athyrium filix-femina,lady fern
+2026-05-10 11:21:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657205687/medium.jpg,53.7155273377,-2.099679485,4,Dryopteris dilatata,broad buckler-fern
+2026-05-10 11:03:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657208081/medium.jpg,53.71569451,-2.10028051,8,Asplenium scolopendrium,Hart's-tongue fern
+2026-05-10 11:04:18 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657208474/medium.jpg,53.71574352,-2.10045418,8,Pteridium aquilinum,common bracken
+2026-05-10 11:19:52 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657214715/medium.jpg,53.71498122,-2.10217263,9,Dryopteris dilatata,broad buckler-fern
+2026-05-10 11:21:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657214770/medium.jpg,53.7150098691,-2.1026483551,8,Athyrium filix-femina,lady fern
+2026-05-10 15:47:10 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657360371/medium.jpg,53.7373508204,-2.0053076418,9,Asplenium scolopendrium,Hart's-tongue fern
+2026-05-10 15:38:40 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/657608732/medium.jpg,53.7355218782,-2.0001821872,3,Dryopteris filix-mas,male fern
+2026-05-14 19:57:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/659766710/medium.jpg,53.7497846084,-2.0128788427,9,Asplenium scolopendrium,Hart's-tongue fern
+2026-05-15 16:45:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/660195847/medium.jpg,53.72489613,-2.09412197,5,Asplenium scolopendrium,Hart's-tongue fern
+2026-04-21 14:03:31 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/660281932/medium.jpg,53.7736783333,-2.0407221667,5,Struthiopteris spicant,hard fern
+2026-05-16 10:31:12 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/660607429/medium.jpg,53.72615488,-2.11235963,9,Asplenium trichomanes,maidenhair spleenwort
+2026-05-24 15:49:33 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/666226254/medium.jpg,53.7392874063,-2.0087641664,5,Asplenium trichomanes,maidenhair spleenwort
+2026-05-25 15:54:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/666519391/medium.jpg,53.77966827,-2.06361569,8,Oreopteris limbosperma,Lemon-scented Fern
+2026-05-25 15:55:29 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/666644211/medium.jpg,53.77965922,-2.06357978,5,Struthiopteris spicant,hard fern
+2026-05-25 15:57:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/666644309/medium.jpg,53.77991997,-2.06405651,9,Pteridium aquilinum,common bracken
+2026-05-30 09:19:06 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/669442455/medium.jpg,53.73468853,-2.03155723,8,Struthiopteris spicant,hard fern
+2026-05-30 09:35:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/669441835/medium.jpg,53.73463986,-2.03161414,9,Asplenium scolopendrium,Hart's-tongue fern
+2026-06-01 18:43:30 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/671126590/medium.jpg,53.71632364,-2.08960509,9,Asplenium ruta-muraria,wall-rue
+2026-06-01 18:44:23 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/671127102/medium.jpg,53.71633381,-2.08882539,5,Equisetum arvense,field horsetail
+2026-06-06 17:31:07 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/674209361/medium.jpg,53.7418334093,-2.0129743125,8,Asplenium trichomanes,maidenhair spleenwort
+2026-06-08 09:41:57 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/675826146/medium.jpg,53.7729034424,-2.0414128304,5,Pteridium aquilinum,common bracken
+2026-06-08 16:01:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/675396394/medium.jpg,53.70929798,-2.07881954,5,Dryopteris filix-mas,male fern
+2026-06-08 16:06:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/675399105/medium.jpg,53.71021152,-2.07716914,7,Dryopteris filix-mas,male fern
+2026-06-08 16:08:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/675400368/medium.jpg,53.71046825,-2.07728943,9,Struthiopteris spicant,hard fern
+2026-06-08 09:35:40 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/675826145/medium.jpg,53.7691383362,-2.0424087048,5,Asplenium scolopendrium,Hart's-tongue fern
+2026-06-08 09:35:48 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/675826156/medium.jpg,53.7691383362,-2.0424311161,5,Dryopteris dilatata,broad buckler-fern
+2026-06-16 14:05:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680426323/medium.jpg,53.7758067113,-2.1513767168,3,Athyrium filix-femina,lady fern
+2026-06-16 14:06:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680426404/medium.jpg,53.7758067113,-2.1513767168,4,Struthiopteris spicant,hard fern
+2026-06-16 14:48:48 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680428351/medium.jpg,53.7770047876,-2.1497442573,6,Dryopteris dilatata,broad buckler-fern
+2026-06-16 14:57:52 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680428479/medium.jpg,53.7779274435,-2.1472772956,3,Athyrium filix-femina,lady fern
+2026-06-16 15:03:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680428585/medium.jpg,53.7785105072,-2.1470060572,9,Oreopteris limbosperma,Lemon-scented Fern
+2026-06-16 15:52:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680429701/medium.jpg,53.7754964383,-2.1517237276,8,Asplenium scolopendrium,Hart's-tongue fern
+2026-06-16 16:13:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680430313/medium.jpg,53.773204983,-2.1566291526,3,Osmunda regalis,European royal fern
+2026-06-16 16:30:32 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680430710/medium.jpg,53.7720678278,-2.1605616063,14,Asplenium adiantum-nigrum,black spleenwort
+2026-06-16 16:33:29 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680431379/medium.jpg,53.772143124,-2.1607181802,10,Asplenium trichomanes,maidenhair spleenwort
+2026-06-16 16:34:27 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680431469/medium.jpg,53.7721571924,-2.1607262269,9,Asplenium ruta-muraria,wall-rue
+2026-06-17 13:41:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680984512/medium.jpg,53.706890255,-2.0193211734,9,Pteridium aquilinum,common bracken
+2026-06-17 13:51:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680985197/medium.jpg,53.7066433333,-2.0185116667,8,Oreopteris limbosperma,Lemon-scented Fern
+2026-06-17 13:54:55 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680985356/medium.jpg,53.7065583333,-2.018335,13,Struthiopteris spicant,hard fern
+2026-06-17 15:09:47 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680986836/medium.jpg,53.735136847,-2.0315171778,9,Struthiopteris spicant,hard fern
+2026-06-17 15:20:40 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680987183/medium.jpg,53.7355100876,-2.0323077589,14,Athyrium filix-femina,lady fern
+2026-06-17 15:28:22 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680987296/medium.jpg,53.7354408737,-2.0312925428,13,Dryopteris dilatata,broad buckler-fern
+2026-06-20 10:03:44 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/682612010/medium.jpg,53.71653381,-2.10036504,6,Asplenium scolopendrium,Hart's-tongue fern
+2026-06-21 11:36:51 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683344484/medium.jpg,53.72586047,-2.05354478,7,Pteridium aquilinum,common bracken
+2026-06-21 11:41:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683346697/medium.jpg,53.72775077,-2.05201256,9,Struthiopteris spicant,hard fern
+2026-06-21 11:44:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683347911/medium.jpg,53.72858183,-2.05119811,8,Dryopteris dilatata,broad buckler-fern
+2026-06-21 11:46:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683348869/medium.jpg,53.72914651,-2.05055263,7,Athyrium filix-femina,lady fern
+2026-06-21 11:47:23 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683349475/medium.jpg,53.72945011,-2.05010987,9,Oreopteris limbosperma,Lemon-scented Fern
+2026-06-21 12:15:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683361922/medium.jpg,53.73034257,-2.05161767,9,Dryopteris dilatata,broad buckler-fern
+2026-06-21 12:16:54 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683362426/medium.jpg,53.7303237,-2.05162807,8,Pteridium aquilinum,common bracken
+2026-06-21 12:39:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683374037/medium.jpg,53.72841082,-2.05460222,7,Athyrium filix-femina,lady fern
+2026-06-21 12:51:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/683380822/medium.jpg,53.7257914,-2.05620371,3,Dryopteris filix-mas,male fern
+2026-06-24 10:14:02 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/685233224/medium.jpg,53.70807752,-2.12543086,6,Pteridium aquilinum,common bracken
+2026-06-24 10:57:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/685246854/medium.jpg,53.70751553,-2.1276324,7,Struthiopteris spicant,hard fern
+2026-06-24 10:59:27 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/685247649/medium.jpg,53.70748773,-2.12827491,9,Equisetum sylvaticum,wood horsetail
+2026-06-24 11:02:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/685248657/medium.jpg,53.70753043,-2.12851165,8,Asplenium scolopendrium,Hart's-tongue fern
+2026-06-25 18:21:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686061458/medium.jpg,53.73638764,-2.1064218,7,Oreopteris limbosperma,Lemon-scented Fern
+2026-06-25 18:29:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686065919/medium.jpg,53.73650419,-2.10185941,6,Dryopteris affinis,Golden-scaled Male-fern
+2026-06-25 18:30:09 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686066288/medium.jpg,53.73651515,-2.10180245,8,Athyrium filix-femina,lady fern
+2026-06-25 18:30:56 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686066679/medium.jpg,53.73653077,-2.10182912,5,Dryopteris dilatata,broad buckler-fern
+2026-06-15 16:22:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686406466/medium.jpg,53.7167095825,-2.0677013294,8,Athyrium filix-femina,lady fern
+2026-06-26 16:45:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686586138/medium.jpg,53.70925067,-2.07326637,5,Struthiopteris spicant,hard fern
+2026-06-26 16:46:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686586933/medium.jpg,53.70938257,-2.07335836,9,Pteridium aquilinum,common bracken
+2026-06-26 16:47:04 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686587410/medium.jpg,53.70933327,-2.07340969,6,Asplenium scolopendrium,Hart's-tongue fern
+2026-06-26 16:47:57 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686588124/medium.jpg,53.70938495,-2.07356839,9,Athyrium filix-femina,lady fern
+2026-06-26 16:50:19 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/686589414/medium.jpg,53.70969347,-2.07367361,7,Dryopteris dilatata,broad buckler-fern
+2025-08-27 12:45:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/687753661/medium.jpg,53.7475033876,-2.0279313412,9,Dryopteris dilatata,broad buckler-fern
+2025-08-27 14:16:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/687754223/medium.jpg,53.7463850629,-2.0294161915,3,Dryopteris dilatata,broad buckler-fern
+2025-08-27 14:18:14 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/687754262/medium.jpg,53.7461155543,-2.0290995819,10,Struthiopteris spicant,hard fern
+2026-06-29 15:54:49 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/688588077/medium.jpg,53.7277274,-2.09705366,4,Oreopteris limbosperma,Lemon-scented Fern
+2026-06-30 15:23:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/689236313/medium.jpg,53.7657966667,-2.0422695,5,Equisetum sylvaticum,wood horsetail
+2026-07-11 14:59:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/695837410/medium.jpg,53.7392769288,-2.1678590588,8,Pteridium aquilinum,common bracken
+2026-07-16 18:41:53 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/699136836/medium.jpg,53.71285553,-2.10095815,8,Asplenium trichomanes,maidenhair spleenwort
+2026-07-16 18:42:18 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/699136916/medium.jpg,53.71281605,-2.10093343,7,Asplenium adiantum-nigrum,black spleenwort
+2026-07-16 18:42:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/699137018/medium.jpg,53.7128169,-2.10091493,7,Asplenium scolopendrium,Hart's-tongue fern
+2026-07-18 15:15:41 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/700193439/medium.jpg,53.71900936,-2.08828039,6,Pteridium aquilinum,common bracken
+2026-07-18 16:05:03 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/700226108/medium.jpg,53.72088678,-2.07054919,4,Asplenium scolopendrium,Hart's-tongue fern
+2026-07-18 16:05:29 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/700226188/medium.jpg,53.72095955,-2.07048252,9,Struthiopteris spicant,hard fern
+2026-07-18 16:08:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/700228649/medium.jpg,53.72084578,-2.0725166,8,Pteridium aquilinum,common bracken
+2026-07-18 16:21:13 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/700236929/medium.jpg,53.7204019,-2.07919426,5,Pteridium aquilinum,common bracken
+2026-08-08 14:38:38 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/713147518/medium.jpg,53.7520246301,-1.995573733,6,Struthiopteris spicant,hard fern
+2026-08-11 12:36:36 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/714961479/medium.jpg,53.7447469349,-2.0308216662,4,Asplenium scolopendrium,Hart's-tongue fern
+2026-08-13 16:24:00 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/716163471/medium.jpg,53.70813465,-2.1257192,8,Asplenium scolopendrium,Hart's-tongue fern
+2026-08-21 15:30:35 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/720711242/medium.jpg,53.72421521,-2.09441837,5,Oreopteris limbosperma,Lemon-scented Fern
+2026-08-24 15:50:05 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/722543596/medium.jpg,53.7231254,-2.09093784,5,Struthiopteris spicant,hard fern
+2026-08-24 15:57:31 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/722547453/medium.jpg,53.72507572,-2.09357098,7,Asplenium scolopendrium,Hart's-tongue fern
+2026-08-26 09:57:08 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/723491882/medium.jpg,53.72018836,-2.09528468,6,Dryopteris dilatata,broad buckler-fern
+2026-08-26 09:57:48 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/723492036/medium.jpg,53.72017432,-2.0952778,7,Athyrium filix-femina,lady fern
+2026-08-26 09:58:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/723492155/medium.jpg,53.72018272,-2.09529091,6,Asplenium scolopendrium,Hart's-tongue fern
+2026-08-30 10:15:50 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/725688551/medium.jpg,53.70560831,-2.10777542,8,Asplenium scolopendrium,Hart's-tongue fern
+2026-08-30 10:34:45 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/725693804/medium.jpg,53.69805269,-2.10492357,6,Athyrium filix-femina,lady fern
+2026-08-30 16:24:01 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/725855733/medium.jpg,53.73758295,-2.10581919,9,Dryopteris dilatata,broad buckler-fern
+2026-09-01 15:37:59 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/726954606/medium.jpg,53.75999375,-2.16442224,5,Equisetum palustre,marsh horsetail
+2026-09-01 15:47:57 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/726956707/medium.jpg,53.7619719,-2.16248232,7,Equisetum palustre,marsh horsetail
+2026-09-01 15:55:27 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/726970690/medium.jpg,53.76268515,-2.16030662,9,Cystopteris fragilis,brittle bladderfern
+2026-09-02 15:53:18 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/727468765/medium.jpg,53.7166354,-2.10689147,6,Asplenium trichomanes,maidenhair spleenwort

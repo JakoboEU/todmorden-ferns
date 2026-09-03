@@ -1,0 +1,106 @@
+﻿Species,Common,Lat,Long,Location Name,Old Name,Rarity,Type,Polygon,Page
+Equisetum telmateia,,53.7309674,"-2.1118805,",Above Hey Rake Farm,,,Historic,above_rake_farm,31
+Equisetum telmateia,,53.7743804,-2.042748,High Greenwood Wood,,,Historic,high_greenwood,31
+Equisetum telmateia,,53.7390157,-2.0704132,Staups Clough,,,Historic,staups_clough,31
+Equisetum palustre,,53.769138,-2.1654164,Shedding,,,Historic,shedding,31
+Equisetum arvense,Y,,,Damp meadows,,,Historic,,31
+Equisetum sylvaticum,Y,,,Shady damp woods,,,Historic,,31
+Equisetum fluviatile,Y,,,In broad places of the canal,Equisetum limosum,,Historic,,31
+Cryptogramma crispa,,53.739529,-2.171885,"Scarth-rake, Cliviger.",Allosorus crispus,,Historic,scarth_rake,31
+Cryptogramma crispa,,53.74028,-2.18194,"Ratton Clough, Cliviger",Allosorus crispus,,Historic,ratton_clough,31
+Cryptogramma crispa,,53.7231456,-2.174137,"Heald, Thorney-ford (slate quarries)",Allosorus crispus,,Historic,heald_moor_slate_quarries,31
+Cryptogramma crispa,,53.780926,-2.1684223,Worstholme (slate quarries),Allosorus crispus,,Historic,worstholme_slate_quarries,31
+Polypodium vulgare,Y,,,"On walls in Cliviger, various places",,,Historic,,31
+Phegopteris connectilis,,53.726889,-2.0919219,Greenhurst-hey Clough,Polypodium phegopteris,,Historic,greenhurst_hey_clough,31
+Phegopteris connectilis,,53.770833,-2.043653,Hebden Valley,Polypodium phegopteris,,Historic,hebden_valley,31
+Phegopteris connectilis,,53.754628,-2.1937122,Green's Clough,Polypodium phegopteris,,Historic,greens_clough,31
+Phegopteris connectilis,,53.721978,-2.1185658,Scaitcliffe Wood,Polypodium phegopteris,,Historic,scaitcliffe_wood,31
+Phegopteris connectilis,,53.7419536,-2.1871551,Thieveley Scouts,Polypodium phegopteris,,Historic,thieveley_scouts,31
+Phegopteris connectilis,,53.706695,-2.1235843,Dulesgate,Polypodium phegopteris,,Historic,dulesgate,31
+Phegopteris connectilis,,53.7438209,-2.146651,Coal Clough,Polypodium phegopteris,,Historic,coal_clough,31
+Phegopteris connectilis,Y,,,Nearly all woods of district,Polypodium phegopteris,,Historic,,31
+Gymnocarpium dryopteris,,53.770833,-2.043653,Hebden Valley,Polypodium dryopteris,,Historic,hebden_valley,31
+Gymnocarpium dryopteris,,53.7482191,-2.1960536,Dodbottom;,Polypodium dryopteris,,Historic,dodbottom,31
+Gymnocarpium dryopteris,,53.7390157,-2.0704132,Staups Clough,Polypodium dryopteris,,Historic,staups_clough,31
+Gymnocarpium dryopteris,,53.754628,-2.1937122,Green's Clough,Polypodium dryopteris,,Historic,greens_clough,31
+Gymnocarpium dryopteris,Y,,,Nearly all shady woods of district,Polypodium dryopteris,,Historic,,31
+Gymnocarpium robertianum,,53.764348,-2.1662953,"About a quarter of a mile below Shedding House on
+the opposite side of the brook, and among the heaps of rubble
+stones.",Polypodium calcaeum/robertianum,,Historic,opposite_shedding,32
+Oreopteris limbosperma,Y,,,On most of the mountainous heaths in the district. Seldom seen below 800 feet of altitude.,Lastrea oreopteris,,Historic,,32
+Dryopteris filix-mas,Y,,,Very abundant,Lastrea filix-mas,,Historic,,32
+Dryopteris dilatata,Y,,,In most shady woods and rocky places,Lastrea dilatata,,Historic,,32
+Polystichum aculeatum,,53.728571,-2.1089715,Pennant Clough,,,Historic,pennant_clough,33
+Polystichum aculeatum,,53.724858,-2.0951558,above Holebottom,,,Historic,above_holebottom,33
+Polystichum aculeatum,,53.770833,-2.043653,Hebden Valley,,,Historic,hebden_valley,33
+Polystichum aculeatum,,,,Mytholm Valley,,,Historic,,33
+Polystichum aculeatum,,53.76463,-2.162,"Shedding, the bottom of the valley",,,Historic,shedding_valley_bottom,33
+Polystichum aculeatum,,53.754628,-2.1937122,"Green's Clough, South bank",,,Historic,greens_clough,33
+Polystichum aculeatum,,53.6901497,-2.1151597,Ramsden Clough,,,Historic,ramsden_clough,33
+Polystichum aculeatum,,53.721606,-2.1190078,Scaitcliffe Clough,,,Historic,scaitcliffe_clough,33
+Cystopteris fragilis,,53.76268,-2.1603,"Shedding, among the old lime-kilns",,,Historic,shedding_lime_kilns,33
+Cystopteris fragilis,,53.778702,-2.0793341,below the Ridge public-house,,,Historic,below_the_ridge_ph,33
+Cystopteris fragilis,,53.75142,-2.21239,Easden near Holmes Chapel,,,Historic,easden,33
+Cystopteris fragilis,,53.754628,-2.1937122,"Green's Clough, South bank",,,Historic,greens_clough,33
+Cystopteris fragilis,,53.7419536,-2.1871551,Thieveley Scouts,,,Historic,thieveley_scouts,33
+Athyrium filix-femina,Y,,,"Wet, shady places, moist rocky woods, common",,,Historic,,33
+Asplenium adiantum-nigrum,,53.743994,-1.9882738,near Mount Skip,,now rare,Historic,mount_skip,34
+Asplenium adiantum-nigrum,,,,near Hebden Bridge,,now rare,Historic,,34
+Asplenium adiantum-nigrum,,53.7291495,-2.1060009,"Scout, Harley-wood",,now rare,Historic,scout,34
+Asplenium adiantum-nigrum,,53.769138,-2.1654164,Shedding,,now rare,Historic,shedding,34
+Asplenium adiantum-nigrum,,53.7419536,-2.1871551,Thieveley Scouts,,now rare,Historic,thieveley_scouts,34
+Asplenium adiantum-nigrum,,,,"Ruddle Scout, above Portsmouth",,now rare,Historic,,34
+Asplenium trichomanes,,53.769138,-2.1654164,Shedding,,rare in locations,Historic,shedding,34
+Asplenium trichomanes,,53.775243,-2.1550193,Cant Clough,,rare in locations,Historic,cant_clough,34
+Asplenium trichomanes,,53.748814,-2.198473,"Dodbottom, near Holmes Chapel",,rare in locations,Historic,dodbottom,34
+Asplenium trichomanes,,53.7419536,-2.1871551,Thieveley Scouts,,rare in locations,Historic,thieveley_scouts,34
+Asplenium trichomanes,,53.7743804,-2.042748,High Greenwood Wood,,rare in locations,Historic,high_greenwood,34
+Asplenium trichomanes,,53.770833,-2.043653,Hebden Valley,,rare in locations,Historic,hebden_valley,34
+Asplenium trichomanes,,53.7291495,-2.1060009,"Scout, Harley-wood",,rare in locations,Historic,scout,34
+Asplenium trichomanes,,53.74647,-2.0294003,"Eaves, near Heptonstall",,rare in locations,Historic,eaves,34
+Asplenium trichomanes,,,,Ragley-naze,,rare in locations,Historic,,34
+Asplenium viride,,53.70664,-2.1226743,Ram's Lumb,,very rare,Historic,rams_lumb,34
+Asplenium viride,,53.706695,-2.1235843,Dulesgate,,very rare,Historic,dulesgate,34
+Asplenium viride,,53.6901497,-2.1151597,Ramsden Clough,,very rare,Historic,ramsden_clough,34
+Asplenium viride,,53.725749,-2.1495522,Tower Clough,,very rare,Historic,tower_clough,34
+Asplenium ruta-muraria,,53.74647,-2.0294003,On rock in Eaves-wood,,rare ,Historic,eaves_wood,34
+Asplenium ruta-muraria,,53.770164,-2.2068927,"Barcroft, Cliviger",,rare,Historic,barcroft,34
+Asplenium scolopendrium,,53.770833,-2.043653,Hebden Valley,Scolopendrium vulgare,rare,Historic,hebden_valley,34
+Asplenium scolopendrium,,53.775243,-2.1550193,Cant Clough,Scolopendrium vulgare,rare,Historic,cant_clough,34
+Asplenium scolopendrium,,53.724858,-2.0951558,Holebottom Clough,Scolopendrium vulgare,rare,Historic,holebottom_clough,34
+Asplenium scolopendrium,,53.7287279,",-2.1206615",Stanally Clough,Scolopendrium vulgare,rare,Historic,stannally_clough,34
+Asplenium scolopendrium,,3.7390153,-2.0627032,Staup's Clough,Scolopendrium vulgare,rare,Historic,staups_clough,34
+Struthiopteris spicant ,Y,,,In most of the little ravines on the hills,Blechnum boreale,,Historic,,34
+Hymenophyllum tunbrigense,,53.703312,-2.0616483,Langfield Edge,,,Historic,langfield_edge,36
+Hymenophyllum tunbrigense,,53.728416,-2.1173083,"Common above springs, Harleywood (until railway was made then destroyed by fetching stones)",,,Historic,springs_of_harley_wood,36
+Hymenophyllum wilsonii,,53.7419536,-2.1871551,Thieveley Scouts,Hymenophyllum wilsoni,"in two places, but rare",Historic,thieveley_scouts,36
+Osmunda regalis,,53.7743804,-2.042748,High Greenwood Wood,,now very rare,Historic,high_greenwood,36
+Osmunda regalis,,53.678841,-2.1066463,"above Allescholes, on the moor",,now very rare,Historic,above_allescholes,36
+Botrychium lunaria,,53.728416,-2.1173083,"Fields near Speed clough, Harley-wood",,,Historic,fields_near_speed_clough,36
+Botrychium lunaria,,53.732167,-2.1147499,Stanally Stones,,,Historic,stannally_stones,36
+Botrychium lunaria,,53.732167,-2.1147499,Rake-hey,,,Historic,rake_farm,36
+Botrychium lunaria,,53.732167,-2.1147499,"Royd hills, Harley-wood",,,Historic,royd_hills,36
+Botrychium lunaria,,53.748199,"-2.0275923,",fields above Eaves,,,Historic,fields_above_eaves,36
+Ophioglossum vulgatum,Y,,,"Meadows and pastures, not uncommon",,,Historic,,36
+Lycopodium clavatum,,53.7438209,-2.146651,Coal Clough,,rare,Historic,coal_clough,36
+Lycopodium clavatum,,53.703312,-2.0616483,Langfield Edge,,rare,Historic,langfield_edge,36
+Lycopodium alpinum,,53.737197,-2.1034241,"Stansfield moor, near the Bride Stone",,destroyed by moor fire,Historic,near_the_bridge_stone,36
+Huperzia selago,,53.739739,-2.1832583,"Scarthrake, Cliveger",Lycopodium selago,very rare,Historic,scarth_rake,36
+Huperzia selago,,53.74518,-2.1223704,Stansfield Moor ,Lycopodium selago,very rare,Historic,stansfield_moor,36
+Chara vulgaris,,53.769138,-2.1654164,Shedding,,,Historic,shedding,36
+Chara vulgaris,,53.753046,-2.1947424,"in the pond near Holmes Chapel, Cliviger",,,Historic,ponds_near_holmes_chapel,36
+Pteridium aquilinum,Y,,,Woods and heaths; common throughout district,,,Historic,,36
+Dryopteris affinis,,53.7419536,-2.1871551,Thieveley Scouts,Lastrea filix-mas var. paleace,,Historic,thieveley_scouts,32
+Dryopteris affinis,,53.754628,-2.1937122,Green's Clough,Lastrea filix-mas var. paleace,,Historic,greens_clough,32
+Dryopteris affinis,Y,,,many rocky ravines of the district,Lastrea filix-mas var. paleace,,Historic,,32
+Dryopteris oreades,,53.7419536,-2.1871551,Thieveley Scouts,Lastrea filix-mas var. abbreviata,,Historic,thieveley_scouts,32
+Dryopteris oreades,,53.74028,-2.18194,"Ratton Clough, Cliviger",Lastrea filix-mas var. abbreviata,,Historic,ratton_clough,32
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
