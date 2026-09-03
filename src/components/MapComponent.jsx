@@ -91,9 +91,9 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
     // Load filtered placenames
     await loadPlacenames(L, allBounds)
 
-    // Fit map to all layers
+    // Start at a closer view so the map fills its panel.
     if (allBounds) {
-      mapInstance.current.fitBounds(allBounds, { padding: [50, 50] })
+      mapInstance.current.setView([53.715, -2.088], 13)
     }
 
     await loadObservationData()

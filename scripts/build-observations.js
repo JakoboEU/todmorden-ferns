@@ -4,6 +4,8 @@ import buffer from '@turf/buffer'
 import { featureCollection, point } from '@turf/helpers'
 import union from '@turf/union'
 
+const normalizeSpeciesName = name => name.trim().split(/\s+/).slice(0, 2).join(' ')
+
 const parseCsv = text => {
   const rows = []
   let row = []
@@ -48,14 +50,15 @@ const buildHistoric = async () => {
   const metadata = new Map()
 
   for (const record of records) {
-    if (record.Species) {
-      const speciesMetadata = metadata.get(record.Species) || { locations: [], rarity: [], common: false }
+    const speciesName = normalizeSpeciesName(record.Species || '')
+    if (speciesName) {
+      const speciesMetadata = metadata.get(speciesName) || { locations: [], rarity: [], common: false }
       if (record['Location Name']) speciesMetadata.locations.push(record['Location Name'])
       if (record.Rarity) speciesMetadata.rarity.push(record.Rarity)
       if (record.Common === 'Y') speciesMetadata.common = true
       speciesMetadata.locations = [...new Set(speciesMetadata.locations)]
       speciesMetadata.rarity = [...new Set(speciesMetadata.rarity)]
-      metadata.set(record.Species, speciesMetadata)
+      metadata.set(speciesName, speciesMetadata)
     }
     if (!record.Polygon) continue
     const polygonRecords = recordsByPolygon.get(record.Polygon) || []
@@ -77,7 +80,7 @@ const buildHistoric = async () => {
           coordinates: result.value.geometry.coordinates
         },
         properties: {
-          species: record.Species,
+          species: normalizeSpeciesName(record.Species || ''),
           commonName: record.Common,
           locationName: record['Location Name'],
           rarity: record.Rarity,
@@ -103,10 +106,11 @@ const buildContemporary = () => {
   const features = files.flatMap(file => parseCsv(fs.readFileSync(file, 'utf8')).flatMap(record => {
     const latitude = Number(record.latitude)
     const longitude = Number(record.longitude)
-    if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || !record.scientific_name) return []
+    const speciesName = normalizeSpeciesName(record.scientific_name || '')
+    if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || !speciesName) return []
 
     const observation = buffer(point([longitude, latitude], {
-      species: record.scientific_name,
+      species: speciesName,
       commonName: record.common_name,
       observedAt: record.time_observed_at,
       imageUrl: record.image_url

@@ -39,36 +39,36 @@ function App() {
           </nav>
         </aside>
         <section id="map" className="map-panel" aria-label="Todmorden fern map">
-          <div className="data-panels">
-            <div className="data-dialog historic-dialog">
-              <strong>Historic</strong>
-              <p>Compiled from Abraham Stansfield&apos;s book <em>The Flora of Todmorden</em>, published in 1911, using data from 1860.</p>
-              {selectedSpecies ? (
-                historicFeature || historicMetadata ? (
-                  <>
-                    {historicMetadata?.common && <p>This species was common in the area.</p>}
-                    {historicMetadata?.rarity?.length > 0 && (
-                      <p>Historic rarity: {historicMetadata.rarity.join('; ')}.</p>
-                    )}
-                    {historicMetadata?.locations?.length > 0 && (
-                      <p>Locations noted: {historicMetadata.locations.join('; ')}.</p>
-                    )}
-                  </>
-                ) : <p>No records are present in this data set.</p>
-              ) : <p>Select a species to see historic presence information.</p>}
-            </div>
-            <div className="data-dialog contemporary-dialog">
-              <strong>Contemporary</strong>
-              <p>Research grade observations from iNaturalist.</p>
-              {selectedSpecies ? (
-                contemporaryFeature
-                  ? <p>{contemporaryFeature.properties.recordCount} research grade observation{contemporaryFeature.properties.recordCount === 1 ? '' : 's'} recorded.</p>
-                  : <p>No records are present in this data set.</p>
-              ) : <p>Select a species to see contemporary presence information.</p>}
-            </div>
-          </div>
           <MapComponent selectedSpecies={selectedSpecies} onDataLoaded={setObservationData} />
         </section>
+        <aside className="data-panels" aria-label="Species data information">
+          <div className="data-dialog historic-dialog">
+            <strong>Historic</strong>
+            <p>Compiled from Abraham Stansfield&apos;s book <em>The Flora of Todmorden</em>, published in 1911, using data from 1860.</p>
+            {selectedSpecies ? (
+              historicFeature || historicMetadata ? (
+                <>
+                  {historicMetadata?.common && <p>This species was common in the area.</p>}
+                  {historicMetadata?.rarity?.length > 0 && (
+                    <p>Historic rarity: {historicMetadata.rarity.join('; ')}.</p>
+                  )}
+                  {historicMetadata?.locations?.length > 0 && (
+                    <p>Locations noted: {historicMetadata.locations.join('; ')}.</p>
+                  )}
+                </>
+              ) : <p>No records are present in this data set.</p>
+            ) : <p>Select a species to see historic presence information.</p>}
+          </div>
+          <div className="data-dialog contemporary-dialog">
+            <strong>Contemporary</strong>
+            <p>Research grade observations from iNaturalist.</p>
+            {selectedSpecies ? (
+              contemporaryFeature
+                ? <p>{contemporaryFeature.properties.recordCount} research grade observation{contemporaryFeature.properties.recordCount === 1 ? '' : 's'} recorded.</p>
+                : <p>No records are present in this data set.</p>
+            ) : <p>Select a species to see contemporary presence information.</p>}
+          </div>
+        </aside>
       </main>
     </div>
   )

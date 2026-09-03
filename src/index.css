@@ -39,7 +39,7 @@ header h1 {
 
 .content {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
+  grid-template-columns: 250px minmax(0, 1fr) 300px;
   gap: 1.5rem;
   flex: 1;
   min-height: 0;
@@ -98,6 +98,7 @@ header h1 {
 .data-panels {
   display: grid;
   gap: 0.6rem;
+  align-content: start;
   flex-shrink: 0;
 }
 
@@ -156,5 +157,9 @@ header h1 {
 
   .map-panel {
     min-height: 60vh;
+  }
+
+  .data-panels {
+    order: 3;
   }
 }

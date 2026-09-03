@@ -3,7 +3,6 @@ const species = [
   'Asplenium ceterach',
   'Asplenium ruta-muraria',
   'Asplenium scolopendrium',
-  'Asplenium scolopendrium scolopendrium',
   'Asplenium trichomanes',
   'Asplenium viride',
   'Athyrium filix-femina',
