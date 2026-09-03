@@ -9,17 +9,18 @@ const wgs84 = '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs'
 
 const transformCoordinates = (coords, geometryType) => {
   if (geometryType === 'Point') {
-    return proj4(bng, wgs84, coords).reverse()
+    // proj4 returns [lon, lat] which is correct for GeoJSON
+    return proj4(bng, wgs84, coords)
   } else if (geometryType === 'LineString') {
-    return coords.map(coord => proj4(bng, wgs84, coord).reverse())
+    return coords.map(coord => proj4(bng, wgs84, coord))
   } else if (geometryType === 'Polygon') {
-    return coords.map(ring => ring.map(coord => proj4(bng, wgs84, coord).reverse()))
+    return coords.map(ring => ring.map(coord => proj4(bng, wgs84, coord)))
   } else if (geometryType === 'MultiPoint') {
-    return coords.map(coord => proj4(bng, wgs84, coord).reverse())
+    return coords.map(coord => proj4(bng, wgs84, coord))
   } else if (geometryType === 'MultiLineString') {
-    return coords.map(line => line.map(coord => proj4(bng, wgs84, coord).reverse()))
+    return coords.map(line => line.map(coord => proj4(bng, wgs84, coord)))
   } else if (geometryType === 'MultiPolygon') {
-    return coords.map(polygon => polygon.map(ring => ring.map(coord => proj4(bng, wgs84, coord).reverse())))
+    return coords.map(polygon => polygon.map(ring => ring.map(coord => proj4(bng, wgs84, coord))))
   }
   return coords
 }
