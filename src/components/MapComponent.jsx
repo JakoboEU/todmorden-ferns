@@ -195,7 +195,7 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
           return L.marker(latlng, {
             icon: L.divIcon({
               className: 'place-label',
-              html: `<div style="font-size: 13px; font-weight: 700; color: rgba(51, 51, 51, 0.65); white-space: nowrap; pointer-events: none; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);">${name}</div>`,
+              html: `<div style="font-size: 11px; font-weight: 700; color: rgba(51, 51, 51, 0.65); white-space: nowrap; pointer-events: none; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);">${name}</div>`,
               iconSize: [120, 25],
               iconAnchor: [60, 5]
             })

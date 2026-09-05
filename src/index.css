@@ -23,6 +23,9 @@ html, body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: white;
   padding: 1.5rem;
@@ -35,6 +38,11 @@ header h1 {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0;
+}
+
+.menu-toggle,
+.menu-backdrop {
+  display: none;
 }
 
 .content {
@@ -146,13 +154,68 @@ header h1 {
 }
 
 @media (max-width: 700px) {
+  header {
+    padding: 0.65rem 1rem;
+  }
+
   .content {
     grid-template-columns: 1fr;
     overflow-y: auto;
   }
 
   .species-menu {
-    max-height: 220px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: min(82vw, 300px);
+    max-height: none;
+    padding-top: 5rem;
+    border-radius: 0;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .species-menu.open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 0.25rem;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  header h1 {
+    min-width: 0;
+    font-size: 1.2rem;
+  }
+
+  .data-dialog {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .data-dialog strong {
+    font-size: 0.9rem;
+  }
+
+  .menu-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border: 0;
   }
 
   .map-panel {

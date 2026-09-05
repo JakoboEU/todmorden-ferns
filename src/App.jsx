@@ -5,6 +5,7 @@ import species from './species'
 function App() {
   const [selectedSpecies, setSelectedSpecies] = useState(null)
   const [observationData, setObservationData] = useState(null)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const historicFeature = observationData?.historic.features.find(
     feature => feature.properties?.species === selectedSpecies
@@ -17,10 +18,20 @@ function App() {
   return (
     <div className="app">
       <header>
+        <button
+          className="menu-toggle"
+          type="button"
+          aria-expanded={menuOpen}
+          aria-controls="species-menu"
+          onClick={() => setMenuOpen(open => !open)}
+        >
+          Browse species
+        </button>
         <h1>Todmorden Ferns Map</h1>
       </header>
       <main className="content">
-        <aside className="species-menu" aria-label="Fern species">
+        {menuOpen && <button className="menu-backdrop" type="button" aria-label="Close species menu" onClick={() => setMenuOpen(false)} />}
+        <aside id="species-menu" className={`species-menu${menuOpen ? ' open' : ''}`} aria-label="Fern species">
           <h2>Species</h2>
           <nav>
             <ul>
@@ -29,7 +40,10 @@ function App() {
                   <a
                     href="#map"
                     className={selectedSpecies === name ? 'selected' : ''}
-                    onClick={() => setSelectedSpecies(name)}
+                    onClick={() => {
+                      setSelectedSpecies(name)
+                      setMenuOpen(false)
+                    }}
                   >
                     {name}
                   </a>
