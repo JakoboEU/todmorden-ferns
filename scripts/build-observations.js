@@ -48,6 +48,7 @@ const buildHistoric = async () => {
   const records = parseCsv(fs.readFileSync('data/locations.csv', 'utf8'))
   const recordsByPolygon = new Map()
   const metadata = new Map()
+  const locationFeatures = new Map()
 
   for (const record of records) {
     const speciesName = normalizeSpeciesName(record.Species || '')
@@ -88,6 +89,10 @@ const buildHistoric = async () => {
         }
       }
       features.push(feature)
+      const speciesName = feature.properties.species
+      const speciesLocations = locationFeatures.get(speciesName) || []
+      speciesLocations.push(feature)
+      locationFeatures.set(speciesName, speciesLocations)
     }
     result = await source.read()
   }
@@ -96,7 +101,8 @@ const buildHistoric = async () => {
   fs.writeFileSync('public/historic.geojson', JSON.stringify({
     type: 'FeatureCollection',
     features: mergedFeatures,
-    metadata: Object.fromEntries(metadata)
+    metadata: Object.fromEntries(metadata),
+    locationFeatures: Object.fromEntries(locationFeatures)
   }))
   console.log(`✓ historic.geojson (${mergedFeatures.length} merged species features)`)
 }

@@ -6,17 +6,22 @@ function App() {
   const [selectedSpecies, setSelectedSpecies] = useState(null)
   const [observationData, setObservationData] = useState(null)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [selectedLocation, setSelectedLocation] = useState(null)
 
   const historicFeature = observationData?.historic.features.find(
     feature => feature.properties?.species === selectedSpecies
   )
   const historicMetadata = observationData?.historic.metadata?.[selectedSpecies]
+  const historicLocationFeatures = observationData?.historic.locationFeatures?.[selectedSpecies] || []
+  const historicLocationNames = new Set(
+    historicLocationFeatures.map(feature => feature.properties?.locationName)
+  )
   const contemporaryFeature = observationData?.contemporary.features.find(
     feature => feature.properties?.species === selectedSpecies
   )
 
   return (
-    <div className="app">
+    <div className="app" onClick={() => setSelectedLocation(null)}>
       <header>
         <button
           className="menu-toggle"
@@ -42,6 +47,7 @@ function App() {
                     className={selectedSpecies === name ? 'selected' : ''}
                     onClick={() => {
                       setSelectedSpecies(name)
+                      setSelectedLocation(null)
                       setMenuOpen(false)
                     }}
                   >
@@ -53,7 +59,12 @@ function App() {
           </nav>
         </aside>
         <section id="map" className="map-panel" aria-label="Todmorden fern map">
-          <MapComponent selectedSpecies={selectedSpecies} onDataLoaded={setObservationData} />
+          <MapComponent
+            selectedSpecies={selectedSpecies}
+            selectedLocation={selectedLocation}
+            onDataLoaded={setObservationData}
+            onResetMap={() => setSelectedLocation(null)}
+          />
         </section>
         <aside className="data-panels" aria-label="Species data information">
           <div className="data-dialog historic-dialog">
@@ -67,7 +78,27 @@ function App() {
                     <p>Historic rarity: {historicMetadata.rarity.join('; ')}.</p>
                   )}
                   {historicMetadata?.locations?.length > 0 && (
-                    <p>Locations noted: {historicMetadata.locations.join('; ')}.</p>
+                    <p>
+                      Locations noted:{' '}
+                      {historicMetadata.locations.map((location, index) => (
+                        <span key={location}>
+                          {index > 0 && '; '}
+                          {historicLocationNames.has(location) ? (
+                            <button
+                              className="location-link"
+                              type="button"
+                              onClick={event => {
+                                event.stopPropagation()
+                                setSelectedLocation(location)
+                              }}
+                            >
+                              {location}
+                            </button>
+                          ) : location}
+                        </span>
+                      ))}
+                      .
+                    </p>
                   )}
                 </>
               ) : <p>No records are present in this data set.</p>

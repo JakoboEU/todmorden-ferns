@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react'
 
-const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
+const MapComponent = ({ selectedSpecies, selectedLocation, onDataLoaded, onResetMap }) => {
   const mapContainer = useRef(null)
   const mapInstance = useRef(null)
   const observationData = useRef(null)
   const observationLayers = useRef([])
+  const highlightedLocation = useRef(null)
+  const fullExtent = useRef(null)
   
   // Towns to display as labels
   const allowedPlaces = [
@@ -25,6 +27,7 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
 
     // Initialize map
     mapInstance.current = L.map(mapContainer.current).setView([53.715, -2.088], 12)
+    mapInstance.current.on('click', () => clearHighlightedLocation(true))
 
     // Add layers from GeoJSON files
     loadLayers()
@@ -33,6 +36,10 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
   useEffect(() => {
     if (mapInstance.current) showObservations()
   }, [selectedSpecies])
+
+  useEffect(() => {
+    if (mapInstance.current) highlightLocation()
+  }, [selectedLocation])
 
   const loadLayers = async () => {
     const L = window.L
@@ -93,6 +100,7 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
 
     // Start at a closer view so the map fills its panel.
     if (allBounds) {
+      fullExtent.current = allBounds
       mapInstance.current.setView([53.715, -2.088], 13)
     }
 
@@ -122,6 +130,8 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
     const L = window.L
     observationLayers.current.forEach(layer => layer.remove())
     observationLayers.current = []
+    highlightedLocation.current?.remove()
+    highlightedLocation.current = null
 
     if (!selectedSpecies || !observationData.current) return
 
@@ -150,6 +160,37 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
       createLayer(observationData.current.historic, '#c66a00'),
       createLayer(observationData.current.contemporary, '#4b1f66')
     ]
+  }
+
+  const highlightLocation = () => {
+    const L = window.L
+    highlightedLocation.current?.remove()
+    highlightedLocation.current = null
+
+    const locations = observationData.current?.historic.locationFeatures?.[selectedSpecies] || []
+    const feature = locations.find(item => item.properties?.locationName === selectedLocation)
+    if (!feature || !selectedLocation) return
+
+    highlightedLocation.current = L.geoJSON(feature, {
+      style: {
+        color: '#8a4600',
+        fillColor: '#f28c18',
+        weight: 3,
+        opacity: 1,
+        fillOpacity: 0.85
+      }
+    }).addTo(mapInstance.current)
+    mapInstance.current.fitBounds(highlightedLocation.current.getBounds(), {
+      padding: [40, 40],
+      maxZoom: mapInstance.current.getZoom()
+    })
+    highlightedLocation.current.bringToFront()
+  }
+
+  const clearHighlightedLocation = (notifyApp = false) => {
+    highlightedLocation.current?.remove()
+    highlightedLocation.current = null
+    if (notifyApp) onResetMap?.()
   }
 
   const loadPlacenames = async (L, allBounds) => {
@@ -221,6 +262,36 @@ const MapComponent = ({ selectedSpecies, onDataLoaded }) => {
 
   return (
     <main>
+      <button
+        className="map-reset"
+        type="button"
+        aria-label="Reset map view"
+        title="Reset map view"
+        onClick={event => {
+          event.stopPropagation()
+          clearHighlightedLocation()
+          mapInstance.current?.setView([53.715, -2.088], 13)
+          onResetMap?.()
+        }}
+      >
+        &#8634;
+      </button>
+      <button
+        className="map-reset map-full-extent"
+        type="button"
+        aria-label="Show full map extent"
+        title="Show full map extent"
+        onClick={event => {
+          event.stopPropagation()
+          clearHighlightedLocation()
+          if (fullExtent.current) {
+            mapInstance.current.fitBounds(fullExtent.current, { padding: [20, 20] })
+          }
+          onResetMap?.()
+        }}
+      >
+        &#10530;
+      </button>
       <div ref={mapContainer} className="map-container" />
     </main>
   )
