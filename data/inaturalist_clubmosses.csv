@@ -1,3 +1,9 @@
-time_observed_at,image_url,latitude,longitude,positional_accuracy,scientific_name,common_name
-2026-06-17 12:57:51 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680984184/medium.jpg,53.7427816686,-2.1184267849,7,Huperzia selago,Fir clubmoss
-2026-08-30 16:28:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/725858696/medium.jpg,53.7372955281,-2.1054271236,5,Huperzia selago,Fir clubmoss
+time_observed_at,image_url,latitude,longitude,scientific_name,common_name
+2026-06-17 12:57:51 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/680984184/medium.jpg,53.7427816686,-2.1184267849,Huperzia selago,Fir clubmoss
+2026-08-30 16:28:34 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/725858696/medium.jpg,53.7372955281,-2.1054271236,Huperzia selago,Fir clubmoss
+2026-08-31 09:23:21 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/726301918/medium.jpg,53.7899841,-2.09861761,Huperzia selago,Fir clubmoss
+2026-08-31 09:24:16 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/726302157/medium.jpg,53.78998868,-2.09861717,Huperzia selago,Fir clubmoss
+2026-08-31 09:35:17 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/726306633/medium.jpg,53.78934185,-2.09852656,Huperzia selago,Fir clubmoss
+2026-09-02 10:27:11 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/727431632/medium.jpg,53.80821851,-2.05363799,Huperzia selago,Fir clubmoss
+2026-09-02 10:28:58 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/727431783/medium.jpg,53.80828412,-2.0538923,Huperzia selago,Fir clubmoss
+2026-09-02 10:30:54 UTC,https://inaturalist-open-data.s3.amazonaws.com/photos/727431849/medium.jpg,53.80819875,-2.05414282,Lycopodium clavatum,stag's-horn clubmoss
