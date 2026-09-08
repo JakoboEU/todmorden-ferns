@@ -1,0 +1,53 @@
+---
+title: "GBIF Fern Data"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+csv_files = list.files('.', "*.csv")
+csv_file = csv_files[1]
+gbif_data = read_tsv(csv_file)
+gbif = gbif_data[,c('species', 'decimalLatitude', 'decimalLongitude', 'coordinateUncertaintyInMeters', 'year', 'institutionCode', 'license', 'rightsHolder')]
+gbif
+```
+
+```{r}
+gbif$provider = ifelse(is.na(gbif$institutionCode), gbif$rightsHolder, gbif$institutionCode)
+```
+
+
+* 7,071.1m -> 10 km × 10 km : Hectad (e.g., SP25)
+* 1,414.2m -> 2 km × 2 km : Tetrad (e.g., SP25A)
+*   707.1m -> 1 km × 1 km : Monad (e.g., SP2453)
+*    70.7m -> 100 m × 100 m : 6-figure grid ref (e.g., SP244532)
+*.    7.1m -> 10 m × 10 m : 8-figure grid ref
+Where lat long is the centre of the hectad/tetrad/monad
+
+```{r}
+gbif %>% 
+  filter(coordinateUncertaintyInMeters %in% c(7071.1, 1414.2, 707.1, 70.7, 7.1)) %>%
+  group_by(provider, coordinateUncertaintyInMeters) %>%
+  summarise(n = n(), min_year = min(year, na.rm = T), max_year = max(year, na.rm = T)) %>%
+  arrange(provider, desc(coordinateUncertaintyInMeters))
+```
+
+```{r}
+gbif %>% 
+  filter(coordinateUncertaintyInMeters < 100) %>%
+  filter(!is.na(species)) %>%
+  group_by(species) %>%
+  summarise(records = n())
+```
+
+```{r}
+ggplot(gbif %>% filter(provider == 'iNaturalist'), aes(x = year)) + geom_bar()
+```
+
+
+
