@@ -16,6 +16,11 @@ gbif_data = read_tsv(csv_file)
 gbif = gbif_data[,c('species', 'decimalLatitude', 'decimalLongitude', 'coordinateUncertaintyInMeters', 'year', 'institutionCode', 'license', 'rightsHolder')]
 gbif
 ```
+compare number of rows to
+https://www.gbif.org/occurrence/search?occurrenceStatus=PRESENT&geometry=POLYGON%28%28-2.212+53.679%2C-1.988+53.679%2C-1.988+53.815%2C-2.212+53.815%2C-2.212+53.679%29%29&taxonKey=GV&taxonKey=LYC&offset=2850
+```{r}
+nrow(gbif)
+```
 
 ```{r}
 gbif$provider = ifelse(is.na(gbif$institutionCode), gbif$rightsHolder, gbif$institutionCode)
