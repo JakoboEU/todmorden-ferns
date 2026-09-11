@@ -37,7 +37,10 @@ function App() {
         >
           Browse species
         </button>
-        <h1>Todmorden Ferns Map</h1>
+        <div className="header-title">
+          <h1>Todmorden Ferns Map</h1>
+          <p>{selectedSpecies || 'Select a species'}</p>
+        </div>
       </header>
       <main className="content">
         {menuOpen && <button className="menu-backdrop" type="button" aria-label="Close species menu" onClick={() => setMenuOpen(false)} />}
