@@ -106,7 +106,7 @@ function App() {
           </div>
           <div className="data-dialog contemporary-dialog">
             <strong>Contemporary</strong>
-            <p>Research grade observations from iNaturalist.</p>
+            <p>Filtered observations from GBIF.</p>
             {selectedSpecies ? (
               contemporaryFeature
                 ? <p>{contemporaryFeature.properties.recordCount} research grade observation{contemporaryFeature.properties.recordCount === 1 ? '' : 's'} recorded.</p>
