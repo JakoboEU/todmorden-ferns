@@ -6,7 +6,7 @@ import union from '@turf/union'
 
 const normalizeSpeciesName = name => name.trim().split(/\s+/).slice(0, 2).join(' ')
 
-const parseCsv = text => {
+const parseCsv = (text, delimiter = ',') => {
   const rows = []
   let row = []
   let value = ''
@@ -21,7 +21,7 @@ const parseCsv = text => {
       i++
     } else if (character === '"') {
       quoted = !quoted
-    } else if (character === ',' && !quoted) {
+    } else if (character === delimiter && !quoted) {
       row.push(value)
       value = ''
     } else if ((character === '\n' || character === '\r') && !quoted) {
@@ -108,29 +108,59 @@ const buildHistoric = async () => {
 }
 
 const buildContemporary = () => {
-  const files = ['data/inaturalist_ferns.csv', 'data/inaturalist_clubmosses.csv']
-  const features = files.flatMap(file => parseCsv(fs.readFileSync(file, 'utf8')).flatMap(record => {
-    const latitude = Number(record.latitude)
-    const longitude = Number(record.longitude)
-    const speciesName = normalizeSpeciesName(record.scientific_name || '')
+  const gbifFile = fs.readdirSync('data/gbif')
+    .filter(file => file.endsWith('.csv'))
+    .map(file => ({
+      file,
+      modifiedAt: fs.statSync(`data/gbif/${file}`).mtimeMs
+    }))
+    .sort((left, right) => right.modifiedAt - left.modifiedAt)[0]
+
+  if (!gbifFile) throw new Error('No GBIF CSV file found in data/gbif')
+
+  const records = parseCsv(fs.readFileSync(`data/gbif/${gbifFile.file}`, 'utf8'), '\t')
+  const requiredHeaders = ['coordinateUncertaintyInMeters', 'taxonRank', 'year', 'species', 'decimalLatitude', 'decimalLongitude', 'rightsHolder']
+  const missingHeaders = requiredHeaders.filter(header => !records[0]?.[header] && !Object.hasOwn(records[0] || {}, header))
+  if (missingHeaders.length > 0) {
+    throw new Error(`GBIF file is missing required columns: ${missingHeaders.join(', ')}`)
+  }
+
+  const filteredRecords = records.filter(record => {
+    const coordinateUncertainty = Number(record.coordinateUncertaintyInMeters)
+    const year = Number(record.year)
+    return record.coordinateUncertaintyInMeters.trim() !== '' &&
+      record.year.trim() !== '' &&
+      Number.isFinite(coordinateUncertainty) &&
+      Number.isFinite(year) &&
+      coordinateUncertainty <= 100 &&
+      (record.taxonRank === 'SPECIES' || record.taxonRank === 'SUBSPECIES') &&
+      year >= 2020
+  })
+  const rightsHolders = [...new Set(filteredRecords.map(record => record.rightsHolder).filter(Boolean))].sort()
+  const features = filteredRecords.flatMap(record => {
+    const latitude = Number(record.decimalLatitude)
+    const longitude = Number(record.decimalLongitude)
+    const speciesName = normalizeSpeciesName(record.species || '')
     if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || !speciesName) return []
 
     const observation = buffer(point([longitude, latitude], {
-      species: speciesName,
-      commonName: record.common_name,
-      observedAt: record.time_observed_at,
-      imageUrl: record.image_url
+      species: speciesName
     }), 150, { units: 'meters' })
 
     return observation ? [observation] : []
-  }))
+  })
 
   const mergedFeatures = mergeBySpecies(features)
   fs.writeFileSync('public/contemporary.geojson', JSON.stringify({
     type: 'FeatureCollection',
     features: mergedFeatures
   }))
-  console.log(`✓ contemporary.geojson (${mergedFeatures.length} merged species features)`)
+  fs.writeFileSync('src/rightsHolders.js', `const rightsHolders = ${JSON.stringify(rightsHolders, null, 2)}
+
+export default rightsHolders
+`)
+  console.log(`✓ contemporary.geojson (${mergedFeatures.length} merged species features from ${filteredRecords.length} records in ${gbifFile.file})`)
+  console.log(`✓ rightsHolders.js (${rightsHolders.length} rights holders)`)
 }
 
 const mergeBySpecies = features => {
