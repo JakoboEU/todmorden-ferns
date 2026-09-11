@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import MapComponent from './components/MapComponent'
 import species from './species'
+import rightsHolders from './rightsHolders'
 
 function App() {
   const [selectedSpecies, setSelectedSpecies] = useState(null)
   const [observationData, setObservationData] = useState(null)
   const [menuOpen, setMenuOpen] = useState(false)
   const [selectedLocation, setSelectedLocation] = useState(null)
+  const [acknowledgementOpen, setAcknowledgementOpen] = useState(false)
 
   const historicFeature = observationData?.historic.features.find(
     feature => feature.properties?.species === selectedSpecies
@@ -19,6 +21,9 @@ function App() {
   const contemporaryFeature = observationData?.contemporary.features.find(
     feature => feature.properties?.species === selectedSpecies
   )
+  const contemporaryRightsHolders = rightsHolders
+    .filter(record => record.species === selectedSpecies)
+    .map(record => record.rightsHolder)
 
   return (
     <div className="app" onClick={() => setSelectedLocation(null)}>
@@ -106,15 +111,66 @@ function App() {
           </div>
           <div className="data-dialog contemporary-dialog">
             <strong>Contemporary</strong>
-            <p>Filtered observations from GBIF.</p>
+            <p>Records from GBIF.</p>
             {selectedSpecies ? (
               contemporaryFeature
-                ? <p>{contemporaryFeature.properties.recordCount} research grade observation{contemporaryFeature.properties.recordCount === 1 ? '' : 's'} recorded.</p>
+                ? (
+                  <p>
+                    <button
+                      className="record-count-link"
+                      type="button"
+                      onClick={event => {
+                        event.stopPropagation()
+                        setAcknowledgementOpen(true)
+                      }}
+                    >
+                      {contemporaryFeature.properties.recordCount}
+                    </button>
+                    {' '}record{contemporaryFeature.properties.recordCount === 1 ? '' : 's'} recorded.
+                  </p>
+                )
                 : <p>No records are present in this data set.</p>
             ) : <p>Select a species to see contemporary presence information.</p>}
           </div>
         </aside>
       </main>
+      {acknowledgementOpen && (
+        <div
+          className="modal-backdrop"
+          role="presentation"
+          onClick={() => setAcknowledgementOpen(false)}
+        >
+          <section
+            className="acknowledgement-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="acknowledgement-title"
+            onClick={event => event.stopPropagation()}
+          >
+            <div className="modal-header">
+              <h2 id="acknowledgement-title">Record acknowledgement</h2>
+              <button
+                className="modal-close"
+                type="button"
+                aria-label="Close acknowledgement"
+                onClick={() => setAcknowledgementOpen(false)}
+              >
+                &times;
+              </button>
+            </div>
+            <p>
+              We acknowledge the following rights holders for the {selectedSpecies} records:
+            </p>
+            {contemporaryRightsHolders.length > 0 ? (
+              <ul>
+                {contemporaryRightsHolders.map(rightsHolder => (
+                  <li key={rightsHolder}>{rightsHolder}</li>
+                ))}
+              </ul>
+            ) : <p>No rights-holder information is available for these records.</p>}
+          </section>
+        </div>
+      )}
     </div>
   )
 }
