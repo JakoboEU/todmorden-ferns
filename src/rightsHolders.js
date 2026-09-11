@@ -10,6 +10,7 @@ const rightsHolders = [
   "Dave Purchase",
   "David Earl",
   "Downing",
+  "James",
   "Judèé Époh-Éèduj Hopè",
   "Kian Hayles-Cotton",
   "Kyle Martyn-Clark",
