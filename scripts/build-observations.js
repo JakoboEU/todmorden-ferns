@@ -136,7 +136,17 @@ const buildContemporary = () => {
       (record.taxonRank === 'SPECIES' || record.taxonRank === 'SUBSPECIES') &&
       year >= 2020
   })
-  const rightsHolders = [...new Set(filteredRecords.map(record => record.rightsHolder).filter(Boolean))].sort()
+  const rightsHolders = [...new Set(filteredRecords.flatMap(record => {
+    const speciesName = normalizeSpeciesName(record.species || '')
+    return speciesName && record.rightsHolder
+      ? [`${speciesName}\t${record.rightsHolder}`]
+      : []
+  }))]
+    .map(value => {
+      const [species, rightsHolder] = value.split('\t')
+      return { species, rightsHolder }
+    })
+    .sort((left, right) => left.species.localeCompare(right.species) || left.rightsHolder.localeCompare(right.rightsHolder))
   const features = filteredRecords.flatMap(record => {
     const latitude = Number(record.decimalLatitude)
     const longitude = Number(record.decimalLongitude)
