@@ -40,6 +40,10 @@ header h1 {
   margin: 0;
 }
 
+.header-title p {
+  display: none;
+}
+
 .menu-toggle,
 .menu-backdrop {
   display: none;
@@ -314,13 +318,26 @@ header h1 {
     font-size: 1.05rem;
   }
 
+  .header-title {
+    min-width: 0;
+  }
+
+  .header-title p {
+    display: block;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.7rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .data-dialog {
-    padding: 0.6rem 0.75rem;
-    font-size: 0.78rem;
+    padding: 0.45rem 0.6rem;
+    font-size: 0.72rem;
   }
 
   .data-dialog strong {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
   }
 
   .menu-backdrop {
@@ -336,10 +353,11 @@ header h1 {
   }
 
   .map-panel {
-    min-height: 60vh;
+    min-height: 45vh;
   }
 
   .data-panels {
     order: 3;
+    padding-bottom: 0.75rem;
   }
 }
